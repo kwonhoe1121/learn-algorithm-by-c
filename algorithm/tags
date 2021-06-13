@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAGS	Makefile	/^CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DDEBUG $(OPTFLAGS)$/;"	m
+FALSE	src/dbg.h	/^#define FALSE /;"	d
+LIBS	Makefile	/^LIBS=-ldl $(OPTLIBS)$/;"	m
+OBJECTS	Makefile	/^OBJECTS=$(patsubst %.c,%.o,$(SOURCES))$/;"	m
+PREFIX	Makefile	/^PREFIX?=\/usr\/local$/;"	m
+QData	src/queue.h	/^typedef int QData;$/;"	t
+QUEUE_SIZE	src/queue.h	/^#define QUEUE_SIZE /;"	d
+Queue	src/queue.h	/^} Queue;$/;"	t	typeref:struct:_queue
+RC_DUP	src/dbg.h	/^#define RC_DUP /;"	d
+RC_ERR	src/dbg.h	/^#define RC_ERR /;"	d
+RC_NFD	src/dbg.h	/^#define RC_NFD /;"	d
+RC_NRM	src/dbg.h	/^#define RC_NRM /;"	d
+SOURCES	Makefile	/^SOURCES=$(wildcard src\/**\/*.c src\/*.c)$/;"	m
+TRUE	src/dbg.h	/^#define TRUE /;"	d
+__COMMOM_H__	src/common.h	/^#define __COMMOM_H__$/;"	d
+__COMMON_API_H__	src/commonapi.h	/^#define __COMMON_API_H__$/;"	d
+__COMMON_API_H__	src/queue.h	/^#define __COMMON_API_H__$/;"	d
+__dbg_h__	src/dbg.h	/^#define __dbg_h__$/;"	d
+_queue	src/queue.h	/^typedef struct _queue {$/;"	s
+check	src/dbg.h	/^#define check(/;"	d
+check_debug	src/dbg.h	/^#define check_debug(/;"	d
+check_mem	src/dbg.h	/^#define check_mem(/;"	d
+clean_errno	src/dbg.h	/^#define clean_errno(/;"	d
+debug	src/dbg.h	/^#define debug(/;"	d
+head	src/queue.h	/^    int head;$/;"	m	struct:_queue
+left_n_rotate	src/commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+left_rotate	src/commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
+log_err	src/dbg.h	/^#define log_err(/;"	d
+log_info	src/dbg.h	/^#define log_info(/;"	d
+log_warn	src/dbg.h	/^#define log_warn(/;"	d
+main	src/main.c	/^int main(int argc, char *argv[])$/;"	f
+max	src/commonapi.c	/^int max(int x, int y) {$/;"	f
+max_arr	src/commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
+min	src/commonapi.c	/^int min(int x, int y) {$/;"	f
+queArr	src/queue.h	/^    int queArr[QUEUE_SIZE];$/;"	m	struct:_queue
+right_n_rotate	src/commonapi.c	/^void right_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+right_rotate	src/commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	f
+sentinel	src/dbg.h	/^#define sentinel(/;"	d
+swap	src/commonapi.c	/^void swap(int *x, int *y) {$/;"	f
+swap_arr	src/commonapi.c	/^void swap_arr(int arr[], int i, int j) {$/;"	f
+tail	src/queue.h	/^    int tail;$/;"	m	struct:_queue

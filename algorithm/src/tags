@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FALSE	dbg.h	/^#define FALSE /;"	d
+QData	queue.h	/^typedef int QData;$/;"	t
+QUEUE_SIZE	queue.h	/^#define QUEUE_SIZE /;"	d
+Queue	queue.h	/^} Queue;$/;"	t	typeref:struct:_queue
+RC_DUP	dbg.h	/^#define RC_DUP /;"	d
+RC_ERR	dbg.h	/^#define RC_ERR /;"	d
+RC_NFD	dbg.h	/^#define RC_NFD /;"	d
+RC_NRM	dbg.h	/^#define RC_NRM /;"	d
+TRUE	dbg.h	/^#define TRUE /;"	d
+__COMMOM_H__	common.h	/^#define __COMMOM_H__$/;"	d
+__COMMON_API_H__	commonapi.h	/^#define __COMMON_API_H__$/;"	d
+__QUEUE_H__	queue.h	/^#define __QUEUE_H__$/;"	d
+__dbg_h__	dbg.h	/^#define __dbg_h__$/;"	d
+_queue	queue.h	/^typedef struct _queue {$/;"	s
+check	dbg.h	/^#define check(/;"	d
+check_debug	dbg.h	/^#define check_debug(/;"	d
+check_mem	dbg.h	/^#define check_mem(/;"	d
+clean_errno	dbg.h	/^#define clean_errno(/;"	d
+debug	dbg.h	/^#define debug(/;"	d
+dequeue	queue.c	/^QData dequeue(Queue *pq)$/;"	f
+enqueue	queue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
+head	queue.h	/^    int head;$/;"	m	struct:_queue
+isQEmpty	queue.c	/^int isQEmpty(Queue *pq)$/;"	f
+left_n_rotate	commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+left_rotate	commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
+log_err	dbg.h	/^#define log_err(/;"	d
+log_info	dbg.h	/^#define log_info(/;"	d
+log_warn	dbg.h	/^#define log_warn(/;"	d
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+max	commonapi.c	/^int max(int x, int y) {$/;"	f
+max_arr	commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
+min	commonapi.c	/^int min(int x, int y) {$/;"	f
+nextQIndex	queue.c	/^int nextQIndex(int idx)$/;"	f
+qpeek	queue.c	/^QData qpeek(Queue *pq)$/;"	f
+queArr	queue.h	/^    QData queArr[QUEUE_SIZE];$/;"	m	struct:_queue
+queueInit	queue.c	/^void queueInit(Queue *pq)$/;"	f
+right_n_rotate	commonapi.c	/^void right_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+right_rotate	commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	f
+sentinel	dbg.h	/^#define sentinel(/;"	d
+swap	commonapi.c	/^void swap(int *x, int *y) {$/;"	f
+swap_arr	commonapi.c	/^void swap_arr(int arr[], int i, int j) {$/;"	f
+tail	queue.h	/^    int tail;$/;"	m	struct:_queue
