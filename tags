@@ -1,0 +1,1017 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AVL_BALANCED	examples/include/bistree.h	/^#define            AVL_BALANCED /;"	d
+AVL_LFT_HEAVY	examples/include/bistree.h	/^#define            AVL_LFT_HEAVY /;"	d
+AVL_RGT_HEAVY	examples/include/bistree.h	/^#define            AVL_RGT_HEAVY /;"	d
+AdjList	examples/include/graph.h	/^} AdjList;$/;"	t	typeref:struct:AdjList_
+AdjList_	examples/include/graph.h	/^typedef struct AdjList_ {$/;"	s
+AvlNode	examples/include/bistree.h	/^} AvlNode;$/;"	t	typeref:struct:AvlNode_
+AvlNode_	examples/include/bistree.h	/^typedef struct AvlNode_ {$/;"	s
+BFS_H	examples/include/bfs.h	/^#define BFS_H$/;"	d
+BISTREE_H	examples/include/bistree.h	/^#define BISTREE_H$/;"	d
+BITREE_H	examples/include/bitree.h	/^#define BITREE_H$/;"	d
+BIT_H	examples/include/bit.h	/^#define BIT_H$/;"	d
+BfsVertex	examples/include/bfs.h	/^} BfsVertex;$/;"	t	typeref:struct:BfsVertex_
+BfsVertex_	examples/include/bfs.h	/^typedef struct BfsVertex_ {$/;"	s
+BiTree	examples/include/bitree.h	/^} BiTree;$/;"	t	typeref:struct:BiTree_
+BiTreeNode	examples/include/bitree.h	/^} BiTreeNode;$/;"	t	typeref:struct:BiTreeNode_
+BiTreeNode_	examples/include/bitree.h	/^typedef struct BiTreeNode_ {$/;"	s
+BiTree_	examples/include/bitree.h	/^typedef struct BiTree_ {$/;"	s
+BisTree	examples/include/bistree.h	/^typedef BiTree BisTree;$/;"	t
+CBC_H	examples/include/cbc.h	/^#define CBC_H$/;"	d
+CC	examples/examples/bistree/bistree.mak	/^CC     = c89$/;"	m
+CC	examples/examples/bit/bit.mak	/^CC     = c89$/;"	m
+CC	examples/examples/bitree/bitree.mak	/^CC     = c89$/;"	m
+CC	examples/examples/chtbl/chtbl.mak	/^CC     = c89$/;"	m
+CC	examples/examples/clist/clist.mak	/^CC     = c89$/;"	m
+CC	examples/examples/clist/page.mak	/^CC     = c89$/;"	m
+CC	examples/examples/compress/compress.mak	/^CC     = c89$/;"	m
+CC	examples/examples/dlist/dlist.mak	/^CC     = c89$/;"	m
+CC	examples/examples/encrypt/cbc.mak	/^CC     = c89$/;"	m
+CC	examples/examples/encrypt/encrypt.mak	/^CC     = c89$/;"	m
+CC	examples/examples/geometry/geodist.mak	/^CC     = c89$/;"	m
+CC	examples/examples/geometry/geometry.mak	/^CC     = c89$/;"	m
+CC	examples/examples/graph/bfs.mak	/^CC     = c89$/;"	m
+CC	examples/examples/graph/dfs.mak	/^CC     = c89$/;"	m
+CC	examples/examples/graph/graph.mak	/^CC     = c89$/;"	m
+CC	examples/examples/graphalg/graphalg.mak	/^CC     = c89$/;"	m
+CC	examples/examples/graphalg/route.mak	/^CC     = c89$/;"	m
+CC	examples/examples/heap/heap.mak	/^CC     = c89$/;"	m
+CC	examples/examples/list/list.mak	/^CC     = c89$/;"	m
+CC	examples/examples/nummeths/nummeths.mak	/^CC     = c89$/;"	m
+CC	examples/examples/ohtbl/ohtbl.mak	/^CC     = c89$/;"	m
+CC	examples/examples/pqueue/pqueue.mak	/^CC     = c89$/;"	m
+CC	examples/examples/queue/queue.mak	/^CC     = c89$/;"	m
+CC	examples/examples/recurse/fact.mak	/^CC     = c89$/;"	m
+CC	examples/examples/recurse/factor.mak	/^CC     = c89$/;"	m
+CC	examples/examples/search/search.mak	/^CC     = c89$/;"	m
+CC	examples/examples/search/spell.mak	/^CC     = c89$/;"	m
+CC	examples/examples/set/cover.mak	/^CC     = c89$/;"	m
+CC	examples/examples/set/set.mak	/^CC     = c89$/;"	m
+CC	examples/examples/sort/directls.mak	/^CC     = c89$/;"	m
+CC	examples/examples/sort/sort.mak	/^CC     = c89$/;"	m
+CC	examples/examples/stack/stack.mak	/^CC     = c89$/;"	m
+CFLAGS	algorithm/Makefile	/^CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DDEBUG $(OPTFLAGS)$/;"	m
+CFLAGS	examples/examples/bistree/bistree.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/bit/bit.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/bitree/bitree.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/chtbl/chtbl.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/clist/clist.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/clist/page.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/compress/compress.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/examples/dlist/dlist.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/encrypt/cbc.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/encrypt/encrypt.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/geometry/geodist.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/geometry/geometry.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/graph/bfs.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/graph/dfs.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/graph/graph.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/graphalg/graphalg.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/examples/graphalg/route.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/examples/heap/heap.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/list/list.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/nummeths/nummeths.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/ohtbl/ohtbl.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/pqueue/pqueue.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/queue/queue.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/recurse/fact.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/recurse/factor.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/search/search.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/search/spell.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/set/cover.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/set/set.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/sort/directls.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/examples/sort/sort.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/examples/stack/stack.mak	/^CFLAGS =$/;"	m
+CHTBL_H	examples/include/chtbl.h	/^#define CHTBL_H$/;"	d
+CHTbl	examples/include/chtbl.h	/^} CHTbl;$/;"	t	typeref:struct:CHTbl_
+CHTbl_	examples/include/chtbl.h	/^typedef struct CHTbl_ {$/;"	s
+CLIST_H	examples/include/clist.h	/^#define CLIST_H$/;"	d
+CList	examples/include/clist.h	/^} CList;$/;"	t	typeref:struct:CList_
+CListElmt	examples/include/clist.h	/^} CListElmt;$/;"	t	typeref:struct:CListElmt_
+CListElmt_	examples/include/clist.h	/^typedef struct CListElmt_ {$/;"	s
+CList_	examples/include/clist.h	/^typedef struct CList_ {$/;"	s
+COMPRESS_H	examples/include/compress.h	/^#define COMPRESS_H$/;"	d
+COVER_H	examples/include/cover.h	/^#define COVER_H$/;"	d
+CVXPCT	examples/examples/geometry/ex-1.c	/^#define            CVXPCT /;"	d	file:
+CoordData	examples/examples/graphalg/ex-1.c	/^} CoordData;$/;"	t	typeref:struct:CoordData_	file:
+CoordData_	examples/examples/graphalg/ex-1.c	/^typedef struct CoordData_ {$/;"	s	file:
+CvxTestP	examples/examples/geometry/ex-1.c	/^static Point CvxTestP[CVXPCT] = {$/;"	v	file:
+DATSIZ	examples/examples/compress/ex-1.c	/^#define            DATSIZ /;"	d	file:
+DEGTORAD	examples/include/geometry.h	/^#define            DEGTORAD(/;"	d
+DFS_H	examples/include/dfs.h	/^#define DFS_H$/;"	d
+DIRECTLS_H	examples/include/directls.h	/^#define DIRECTLS_H$/;"	d
+DLIST_H	examples/include/dlist.h	/^#define DLIST_H$/;"	d
+DList	examples/include/dlist.h	/^} DList;$/;"	t	typeref:struct:DList_
+DListElmt	examples/include/dlist.h	/^} DListElmt;$/;"	t	typeref:struct:DListElmt_
+DListElmt_	examples/include/dlist.h	/^typedef struct DListElmt_ {$/;"	s
+DList_	examples/include/dlist.h	/^typedef struct DList_ {$/;"	s
+DesEorD	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	t	typeref:enum:DesEorD_	file:
+DesEorD_	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	g	file:
+DesExpansion	examples/source/des.c	/^static const int DesExpansion[48] = {$/;"	v	file:
+DesFinal	examples/source/des.c	/^static const int DesFinal[64] = {$/;"	v	file:
+DesInitial	examples/source/des.c	/^static const int DesInitial[64] = {$/;"	v	file:
+DesPbox	examples/source/des.c	/^static const int DesPbox[32] = {$/;"	v	file:
+DesPermuted	examples/source/des.c	/^static const int DesPermuted[48] = {$/;"	v	file:
+DesRotations	examples/source/des.c	/^static const int DesRotations[16] = {$/;"	v	file:
+DesSbox	examples/source/des.c	/^static const int DesSbox[8][4][16] = {$/;"	v	file:
+DesTransform	examples/source/des.c	/^static const int DesTransform[56] = {$/;"	v	file:
+DfsVertex	examples/include/dfs.h	/^} DfsVertex;$/;"	t	typeref:struct:DfsVertex_
+DfsVertex_	examples/include/dfs.h	/^typedef struct DfsVertex_ {$/;"	s
+Directory	examples/include/directls.h	/^} Directory;$/;"	t	typeref:struct:Directory_
+Directory_	examples/include/directls.h	/^typedef struct Directory_ {$/;"	s
+EARTH_RADIUS	examples/include/geodist.h	/^#define            EARTH_RADIUS /;"	d
+ENCRYPT_H	examples/include/encrypt.h	/^#define ENCRYPT_H$/;"	d
+EVENTS_H	examples/include/events.h	/^#define EVENTS_H$/;"	d
+EVENT_H	examples/include/event.h	/^#define EVENT_H$/;"	d
+EXE	examples/examples/bistree/bistree.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/bit/bit.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/bitree/bitree.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/chtbl/chtbl.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/clist/clist.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/clist/page.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/compress/compress.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/dlist/dlist.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/encrypt/cbc.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/encrypt/encrypt.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/geometry/geodist.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/geometry/geometry.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/graph/bfs.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/graph/dfs.mak	/^EXE    = ex-3.exe$/;"	m
+EXE	examples/examples/graph/graph.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/graphalg/graphalg.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/graphalg/route.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/heap/heap.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/list/list.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/nummeths/nummeths.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/ohtbl/ohtbl.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/pqueue/pqueue.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/queue/queue.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/recurse/fact.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/recurse/factor.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/search/search.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/search/spell.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/set/cover.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/set/set.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/sort/directls.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/examples/sort/sort.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/examples/stack/stack.mak	/^EXE    = ex-1.exe$/;"	m
+EdgeData	examples/examples/graphalg/ex-1.c	/^} EdgeData;$/;"	t	typeref:struct:EdgeData_	file:
+EdgeData	examples/examples/graphalg/ex-2.c	/^} EdgeData;$/;"	t	typeref:struct:EdgeData_	file:
+EdgeData_	examples/examples/graphalg/ex-1.c	/^typedef struct EdgeData_ {$/;"	s	file:
+EdgeData_	examples/examples/graphalg/ex-2.c	/^typedef struct EdgeData_ {$/;"	s	file:
+Event	examples/include/event.h	/^} Event;$/;"	t	typeref:struct:Event_
+Event_	examples/include/event.h	/^typedef struct Event_ {$/;"	s
+FACTOR_H	examples/include/factor.h	/^#define FACTOR_H$/;"	d
+FACTTAIL_H	examples/include/facttail.h	/^#define FACTTAIL_H$/;"	d
+FACT_H	examples/include/fact.h	/^#define FACT_H$/;"	d
+FALSE	algorithm/src/dbg.h	/^#define FALSE /;"	d
+FRAMES_H	examples/include/frames.h	/^#define FRAMES_H$/;"	d
+GEODIST_H	examples/include/geodist.h	/^#define GEODIST_H$/;"	d
+GEOMETRY_H	examples/include/geometry.h	/^#define GEOMETRY_H$/;"	d
+GRAPHALG_H	examples/include/graphalg.h	/^#define GRAPHALG_H$/;"	d
+GRAPH_H	examples/include/graph.h	/^#define GRAPH_H$/;"	d
+Graph	examples/include/graph.h	/^} Graph;$/;"	t	typeref:struct:Graph_
+Graph_	examples/include/graph.h	/^typedef struct Graph_ {$/;"	s
+HASHPJW_H	examples/include/hashpjw.h	/^#define HASHPJW_H$/;"	d
+HEAP_H	examples/include/heap.h	/^#define HEAP_H$/;"	d
+Heap	examples/include/heap.h	/^} Heap;$/;"	t	typeref:struct:Heap_
+Heap_	examples/include/heap.h	/^typedef struct Heap_ {$/;"	s
+HuffCode	examples/include/compress.h	/^} HuffCode;$/;"	t	typeref:struct:HuffCode_
+HuffCode_	examples/include/compress.h	/^typedef struct HuffCode_ {$/;"	s
+HuffNode	examples/include/compress.h	/^} HuffNode;$/;"	t	typeref:struct:HuffNode_
+HuffNode_	examples/include/compress.h	/^typedef struct HuffNode_ {$/;"	s
+Huge	examples/include/encrypt.h	/^typedef unsigned long Huge;$/;"	t
+INCDRS	examples/examples/bistree/bistree.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/bit/bit.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/bitree/bitree.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/chtbl/chtbl.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/clist/clist.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/clist/page.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/compress/compress.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/dlist/dlist.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/encrypt/cbc.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/encrypt/encrypt.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/geometry/geodist.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/geometry/geometry.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/graph/bfs.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/graph/dfs.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/graph/graph.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/graphalg/graphalg.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/graphalg/route.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/heap/heap.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/list/list.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/nummeths/nummeths.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/ohtbl/ohtbl.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/pqueue/pqueue.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/queue/queue.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/recurse/fact.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/recurse/factor.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/search/search.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/search/spell.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/set/cover.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/set/set.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/sort/directls.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/sort/sort.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/examples/stack/stack.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+KSet	examples/include/cover.h	/^} KSet;$/;"	t	typeref:struct:KSet_
+KSet_	examples/include/cover.h	/^typedef struct KSet_ {$/;"	s
+LEX_H	examples/include/lex.h	/^#define LEX_H$/;"	d
+LFLAGS	examples/examples/bistree/bistree.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/bit/bit.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/bitree/bitree.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/chtbl/chtbl.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/clist/clist.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/clist/page.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/compress/compress.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/dlist/dlist.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/encrypt/cbc.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/encrypt/encrypt.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/geometry/geodist.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/geometry/geometry.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/graph/bfs.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/graph/dfs.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/graph/graph.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/graphalg/graphalg.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/graphalg/route.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/heap/heap.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/list/list.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/nummeths/nummeths.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/ohtbl/ohtbl.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/pqueue/pqueue.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/queue/queue.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/recurse/fact.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/recurse/factor.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/search/search.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/search/spell.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/set/cover.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/set/set.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/sort/directls.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/sort/sort.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/examples/stack/stack.mak	/^LFLAGS =$/;"	m
+LIBDRS	examples/examples/bistree/bistree.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/bit/bit.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/bitree/bitree.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/chtbl/chtbl.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/clist/clist.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/clist/page.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/compress/compress.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/dlist/dlist.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/encrypt/cbc.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/encrypt/encrypt.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/geometry/geodist.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/geometry/geometry.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/graph/bfs.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/graph/dfs.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/graph/graph.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/graphalg/graphalg.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/graphalg/route.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/heap/heap.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/list/list.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/nummeths/nummeths.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/ohtbl/ohtbl.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/pqueue/pqueue.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/queue/queue.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/recurse/fact.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/recurse/factor.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/search/search.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/search/spell.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/set/cover.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/set/set.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/sort/directls.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/sort/sort.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/examples/stack/stack.mak	/^LIBDRS =$/;"	m
+LIBFLS	examples/examples/bistree/bistree.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/bit/bit.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/bitree/bitree.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/chtbl/chtbl.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/clist/clist.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/clist/page.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/compress/compress.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/dlist/dlist.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/encrypt/cbc.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/encrypt/encrypt.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/geometry/geodist.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/geometry/geometry.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/graph/bfs.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/graph/dfs.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/graph/graph.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/graphalg/graphalg.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/graphalg/route.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/heap/heap.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/list/list.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/nummeths/nummeths.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/ohtbl/ohtbl.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/pqueue/pqueue.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/queue/queue.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/recurse/fact.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/recurse/factor.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/search/search.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/search/spell.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/set/cover.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/set/set.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/examples/sort/directls.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/sort/sort.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/examples/stack/stack.mak	/^LIBFLS =$/;"	m
+LIBS	algorithm/Makefile	/^LIBS=-ldl $(OPTLIBS)$/;"	m
+LIST_H	examples/include/list.h	/^#define LIST_H$/;"	d
+LL	examples/examples/bistree/bistree.mak	/^LL     = c89$/;"	m
+LL	examples/examples/bit/bit.mak	/^LL     = c89$/;"	m
+LL	examples/examples/bitree/bitree.mak	/^LL     = c89$/;"	m
+LL	examples/examples/chtbl/chtbl.mak	/^LL     = c89$/;"	m
+LL	examples/examples/clist/clist.mak	/^LL     = c89$/;"	m
+LL	examples/examples/clist/page.mak	/^LL     = c89$/;"	m
+LL	examples/examples/compress/compress.mak	/^LL     = c89$/;"	m
+LL	examples/examples/dlist/dlist.mak	/^LL     = c89$/;"	m
+LL	examples/examples/encrypt/cbc.mak	/^LL     = c89$/;"	m
+LL	examples/examples/encrypt/encrypt.mak	/^LL     = c89$/;"	m
+LL	examples/examples/geometry/geodist.mak	/^LL     = c89$/;"	m
+LL	examples/examples/geometry/geometry.mak	/^LL     = c89$/;"	m
+LL	examples/examples/graph/bfs.mak	/^LL     = c89$/;"	m
+LL	examples/examples/graph/dfs.mak	/^LL     = c89$/;"	m
+LL	examples/examples/graph/graph.mak	/^LL     = c89$/;"	m
+LL	examples/examples/graphalg/graphalg.mak	/^LL     = c89$/;"	m
+LL	examples/examples/graphalg/route.mak	/^LL     = c89$/;"	m
+LL	examples/examples/heap/heap.mak	/^LL     = c89$/;"	m
+LL	examples/examples/list/list.mak	/^LL     = c89$/;"	m
+LL	examples/examples/nummeths/nummeths.mak	/^LL     = c89$/;"	m
+LL	examples/examples/ohtbl/ohtbl.mak	/^LL     = c89$/;"	m
+LL	examples/examples/pqueue/pqueue.mak	/^LL     = c89$/;"	m
+LL	examples/examples/queue/queue.mak	/^LL     = c89$/;"	m
+LL	examples/examples/recurse/fact.mak	/^LL     = c89$/;"	m
+LL	examples/examples/recurse/factor.mak	/^LL     = c89$/;"	m
+LL	examples/examples/search/search.mak	/^LL     = c89$/;"	m
+LL	examples/examples/search/spell.mak	/^LL     = c89$/;"	m
+LL	examples/examples/set/cover.mak	/^LL     = c89$/;"	m
+LL	examples/examples/set/set.mak	/^LL     = c89$/;"	m
+LL	examples/examples/sort/directls.mak	/^LL     = c89$/;"	m
+LL	examples/examples/sort/sort.mak	/^LL     = c89$/;"	m
+LL	examples/examples/stack/stack.mak	/^LL     = c89$/;"	m
+LZ77_BUFFER_SIZE	examples/include/compress.h	/^#define            LZ77_BUFFER_SIZE /;"	d
+LZ77_BUFLEN_BITS	examples/include/compress.h	/^#define            LZ77_BUFLEN_BITS /;"	d
+LZ77_NEXT_BITS	examples/include/compress.h	/^#define            LZ77_NEXT_BITS /;"	d
+LZ77_PHRASE_BITS	examples/include/compress.h	/^#define            LZ77_PHRASE_BITS /;"	d
+LZ77_SYMBOL_BITS	examples/include/compress.h	/^#define            LZ77_SYMBOL_BITS /;"	d
+LZ77_TYPE_BITS	examples/include/compress.h	/^#define            LZ77_TYPE_BITS /;"	d
+LZ77_WINDOW_SIZE	examples/include/compress.h	/^#define            LZ77_WINDOW_SIZE /;"	d
+LZ77_WINOFF_BITS	examples/include/compress.h	/^#define            LZ77_WINOFF_BITS /;"	d
+List	examples/include/list.h	/^} List;$/;"	t	typeref:struct:List_
+ListElmt	examples/include/list.h	/^} ListElmt;$/;"	t	typeref:struct:ListElmt_
+ListElmt_	examples/include/list.h	/^typedef struct ListElmt_ {$/;"	s
+List_	examples/include/list.h	/^typedef struct List_ {$/;"	s
+MAKNAM	examples/examples/bistree/bistree.mak	/^MAKNAM = bistree.mak$/;"	m
+MAKNAM	examples/examples/bit/bit.mak	/^MAKNAM = bit.mak$/;"	m
+MAKNAM	examples/examples/bitree/bitree.mak	/^MAKNAM = bitree.mak$/;"	m
+MAKNAM	examples/examples/chtbl/chtbl.mak	/^MAKNAM = chtbl.mak$/;"	m
+MAKNAM	examples/examples/clist/clist.mak	/^MAKNAM = clist.mak$/;"	m
+MAKNAM	examples/examples/clist/page.mak	/^MAKNAM = page.mak$/;"	m
+MAKNAM	examples/examples/compress/compress.mak	/^MAKNAM = compress.mak$/;"	m
+MAKNAM	examples/examples/dlist/dlist.mak	/^MAKNAM = dlist.mak$/;"	m
+MAKNAM	examples/examples/encrypt/cbc.mak	/^MAKNAM = cbc.mak$/;"	m
+MAKNAM	examples/examples/encrypt/encrypt.mak	/^MAKNAM = encrypt.mak$/;"	m
+MAKNAM	examples/examples/geometry/geodist.mak	/^MAKNAM = geodist.mak$/;"	m
+MAKNAM	examples/examples/geometry/geometry.mak	/^MAKNAM = geometry.mak$/;"	m
+MAKNAM	examples/examples/graph/bfs.mak	/^MAKNAM = bfs.mak$/;"	m
+MAKNAM	examples/examples/graph/dfs.mak	/^MAKNAM = dfs.mak$/;"	m
+MAKNAM	examples/examples/graph/graph.mak	/^MAKNAM = graph.mak$/;"	m
+MAKNAM	examples/examples/graphalg/graphalg.mak	/^MAKNAM = graphalg.mak$/;"	m
+MAKNAM	examples/examples/graphalg/route.mak	/^MAKNAM = route.mak$/;"	m
+MAKNAM	examples/examples/heap/heap.mak	/^MAKNAM = heap.mak$/;"	m
+MAKNAM	examples/examples/list/list.mak	/^MAKNAM = list.mak$/;"	m
+MAKNAM	examples/examples/nummeths/nummeths.mak	/^MAKNAM = nummeths.mak$/;"	m
+MAKNAM	examples/examples/ohtbl/ohtbl.mak	/^MAKNAM = ohtbl.mak$/;"	m
+MAKNAM	examples/examples/pqueue/pqueue.mak	/^MAKNAM = pqueue.mak$/;"	m
+MAKNAM	examples/examples/queue/queue.mak	/^MAKNAM = queue.mak$/;"	m
+MAKNAM	examples/examples/recurse/fact.mak	/^MAKNAM = fact.mak$/;"	m
+MAKNAM	examples/examples/recurse/factor.mak	/^MAKNAM = factor.mak$/;"	m
+MAKNAM	examples/examples/search/search.mak	/^MAKNAM = search.mak$/;"	m
+MAKNAM	examples/examples/search/spell.mak	/^MAKNAM = spell.mak$/;"	m
+MAKNAM	examples/examples/set/cover.mak	/^MAKNAM = cover.mak$/;"	m
+MAKNAM	examples/examples/set/set.mak	/^MAKNAM = set.mak$/;"	m
+MAKNAM	examples/examples/sort/directls.mak	/^MAKNAM = directls.mak$/;"	m
+MAKNAM	examples/examples/sort/sort.mak	/^MAKNAM = sort.mak$/;"	m
+MAKNAM	examples/examples/stack/stack.mak	/^MAKNAM = stack.mak$/;"	m
+MAX	examples/include/geometry.h	/^#define            MAX(/;"	d
+MIN	examples/include/geometry.h	/^#define            MIN(/;"	d
+MSTECT	examples/examples/graphalg/ex-1.c	/^#define            MSTECT /;"	d	file:
+MSTVCT	examples/examples/graphalg/ex-1.c	/^#define            MSTVCT /;"	d	file:
+MstTestE	examples/examples/graphalg/ex-1.c	/^static EdgeData MstTestE[MSTECT] = {$/;"	v	file:
+MstTestV	examples/examples/graphalg/ex-1.c	/^static char MstTestV[MSTVCT][STRSIZ] = {$/;"	v	file:
+MstVertex	examples/include/graphalg.h	/^} MstVertex;$/;"	t	typeref:struct:MstVertex_
+MstVertex_	examples/include/graphalg.h	/^typedef struct MstVertex_ {$/;"	s
+NUMMETHS_H	examples/include/nummeths.h	/^#define NUMMETHS_H$/;"	d
+OBJECTS	algorithm/Makefile	/^OBJECTS=$(patsubst %.c,%.o,$(SOURCES))$/;"	m
+OBJFLS	examples/examples/bistree/bistree.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/bit/bit.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/bitree/bitree.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/chtbl/chtbl.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/clist/clist.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/clist/page.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/compress/compress.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/dlist/dlist.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/encrypt/cbc.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/encrypt/encrypt.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/geometry/geodist.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/geometry/geometry.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/graph/bfs.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/graph/dfs.mak	/^OBJFLS = ex-3.o\\$/;"	m
+OBJFLS	examples/examples/graph/graph.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/graphalg/graphalg.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/graphalg/route.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/heap/heap.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/list/list.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/nummeths/nummeths.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/ohtbl/ohtbl.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/pqueue/pqueue.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/queue/queue.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/recurse/fact.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/recurse/factor.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/search/search.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/search/spell.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/set/cover.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/set/set.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/sort/directls.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/examples/sort/sort.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/examples/stack/stack.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OHTBL_H	examples/include/ohtbl.h	/^#define OHTBL_H$/;"	d
+OHTbl	examples/include/ohtbl.h	/^} OHTbl;$/;"	t	typeref:struct:OHTbl_
+OHTbl_	examples/include/ohtbl.h	/^typedef struct OHTbl_ {$/;"	s
+PAGE_H	examples/include/page.h	/^#define PAGE_H$/;"	d
+PARCELS_H	examples/include/parcels.h	/^#define PARCELS_H$/;"	d
+PARCEL_H	examples/include/parcel.h	/^#define PARCEL_H$/;"	d
+PI	examples/include/geometry.h	/^#define            PI /;"	d
+PLAYER_COUNT	examples/examples/set/ex-2.c	/^#define            PLAYER_COUNT /;"	d	file:
+PQUEUE_H	examples/include/pqueue.h	/^#define PQUEUE_H$/;"	d
+PQueue	examples/include/pqueue.h	/^typedef Heap PQueue;$/;"	t
+PREFIX	algorithm/Makefile	/^PREFIX?=\/usr\/local$/;"	m
+PRIME_TBLSIZ	examples/include/hashpjw.h	/^#define            PRIME_TBLSIZ /;"	d
+PTHECT	examples/examples/graphalg/ex-1.c	/^#define            PTHECT /;"	d	file:
+PTHECT	examples/examples/graphalg/ex-2.c	/^#define            PTHECT /;"	d	file:
+PTHVCT	examples/examples/graphalg/ex-1.c	/^#define            PTHVCT /;"	d	file:
+PTHVCT	examples/examples/graphalg/ex-2.c	/^#define            PTHVCT /;"	d	file:
+Page	examples/include/page.h	/^} Page;$/;"	t	typeref:struct:Page_
+Page_	examples/include/page.h	/^typedef struct Page_ {$/;"	s
+Parcel	examples/include/parcel.h	/^} Parcel;$/;"	t	typeref:struct:Parcel_
+Parcel_	examples/include/parcel.h	/^typedef struct Parcel_ {$/;"	s
+PathVertex	examples/include/graphalg.h	/^} PathVertex;$/;"	t	typeref:struct:PathVertex_
+PathVertex_	examples/include/graphalg.h	/^typedef struct PathVertex_ {$/;"	s
+Point	examples/include/geometry.h	/^} Point;$/;"	t	typeref:struct:Point_
+Point_	examples/include/geometry.h	/^typedef struct Point_ {$/;"	s
+PthTestE	examples/examples/graphalg/ex-1.c	/^static EdgeData PthTestE[PTHECT] = {$/;"	v	file:
+PthTestE	examples/examples/graphalg/ex-2.c	/^static EdgeData PthTestE[PTHECT] = {$/;"	v	file:
+PthTestV	examples/examples/graphalg/ex-1.c	/^static char PthTestV[PTHVCT][STRSIZ] = {$/;"	v	file:
+PthTestV	examples/examples/graphalg/ex-2.c	/^static char PthTestV[PTHVCT][STRSIZ] = {$/;"	v	file:
+QData	algorithm/src/queue.h	/^typedef int QData;$/;"	t
+QUEUE_H	examples/include/queue.h	/^#define QUEUE_H$/;"	d
+QUEUE_SIZE	algorithm/src/queue.h	/^#define QUEUE_SIZE /;"	d
+Queue	algorithm/src/queue.h	/^} Queue;$/;"	t	typeref:struct:_queue
+Queue	examples/include/queue.h	/^typedef List Queue;$/;"	t
+RADTODEG	examples/include/geometry.h	/^#define            RADTODEG(/;"	d
+RC_DUP	algorithm/src/dbg.h	/^#define RC_DUP /;"	d
+RC_ERR	algorithm/src/dbg.h	/^#define RC_ERR /;"	d
+RC_NFD	algorithm/src/dbg.h	/^#define RC_NFD /;"	d
+RC_NRM	algorithm/src/dbg.h	/^#define RC_NRM /;"	d
+ROUTE_H	examples/include/route.h	/^#define ROUTE_H$/;"	d
+RsaPriKey	examples/include/encrypt.h	/^} RsaPriKey;$/;"	t	typeref:struct:RsaPriKey_
+RsaPriKey_	examples/include/encrypt.h	/^typedef struct RsaPriKey_ {$/;"	s
+RsaPubKey	examples/include/encrypt.h	/^} RsaPubKey;$/;"	t	typeref:struct:RsaPubKey_
+RsaPubKey_	examples/include/encrypt.h	/^typedef struct RsaPubKey_ {$/;"	s
+SData	algorithm/src/stack.h	/^typedef int SData;$/;"	t
+SEARCH_H	examples/include/search.h	/^#define SEARCH_H$/;"	d
+SET_H	examples/include/set.h	/^#define SET_H$/;"	d
+SIZE	examples/examples/nummeths/ex-1.c	/^#define            SIZE /;"	d	file:
+SKILLS_COUNT	examples/examples/set/ex-2.c	/^#define            SKILLS_COUNT /;"	d	file:
+SORT_H	examples/include/sort.h	/^#define SORT_H$/;"	d
+SOURCES	algorithm/Makefile	/^SOURCES=$(wildcard src\/**\/*.c src\/*.c)$/;"	m
+SPELL_H	examples/include/spell.h	/^#define SPELL_H$/;"	d
+SPELL_SIZE	examples/include/spell.h	/^#define            SPELL_SIZE /;"	d
+SPoint	examples/include/geometry.h	/^} SPoint;$/;"	t	typeref:struct:SPoint_
+SPoint_	examples/include/geometry.h	/^typedef struct SPoint_ {$/;"	s
+SRCFLS	examples/examples/bistree/bistree.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/bit/bit.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/bitree/bitree.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/chtbl/chtbl.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/clist/clist.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/clist/page.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/compress/compress.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/dlist/dlist.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/encrypt/cbc.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/encrypt/encrypt.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/geometry/geodist.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/geometry/geometry.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/graph/bfs.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/graph/dfs.mak	/^SRCFLS = ex-3.c\\$/;"	m
+SRCFLS	examples/examples/graph/graph.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/graphalg/graphalg.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/graphalg/route.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/heap/heap.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/list/list.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/nummeths/nummeths.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/ohtbl/ohtbl.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/pqueue/pqueue.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/queue/queue.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/recurse/fact.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/recurse/factor.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/search/search.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/search/spell.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/set/cover.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/set/set.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/sort/directls.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/examples/sort/sort.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/examples/stack/stack.mak	/^SRCFLS = ex-1.c\\$/;"	m
+STACK_H	examples/include/stack.h	/^#define STACK_H$/;"	d
+STACK_SIZE	algorithm/src/stack.h	/^#define STACK_SIZE /;"	d
+STRSIZ	examples/examples/bistree/ex-1.c	/^#define            STRSIZ /;"	d	file:
+STRSIZ	examples/examples/graph/ex-1.c	/^#define            STRSIZ /;"	d	file:
+STRSIZ	examples/examples/graph/ex-2.c	/^#define            STRSIZ /;"	d	file:
+STRSIZ	examples/examples/graph/ex-3.c	/^#define            STRSIZ /;"	d	file:
+STRSIZ	examples/examples/graphalg/ex-1.c	/^#define            STRSIZ /;"	d	file:
+STRSIZ	examples/examples/graphalg/ex-2.c	/^#define            STRSIZ /;"	d	file:
+STRSIZ	examples/examples/search/ex-1.c	/^#define            STRSIZ /;"	d	file:
+STRSIZ	examples/examples/sort/ex-1.c	/^#define            STRSIZ /;"	d	file:
+SYMBOL_H	examples/include/symbol.h	/^#define SYMBOL_H$/;"	d
+Set	examples/include/set.h	/^typedef List Set;$/;"	t
+Stack	algorithm/src/stack.h	/^} Stack;$/;"	t	typeref:struct:_stack
+Stack	examples/include/stack.h	/^typedef List Stack;$/;"	t
+Symbol	examples/include/symbol.h	/^} Symbol;$/;"	t	typeref:struct:Symbol_
+Symbol_	examples/include/symbol.h	/^typedef struct Symbol_ {$/;"	s
+TBLSIZ	examples/examples/chtbl/ex-1.c	/^#define            TBLSIZ /;"	d	file:
+TBLSIZ	examples/examples/ohtbl/ex-1.c	/^#define            TBLSIZ /;"	d	file:
+TRANSFER_H	examples/include/transfer.h	/^#define TRANSFER_H$/;"	d
+TRAVERSE_H	examples/include/traverse.h	/^#define TRAVERSE_H$/;"	d
+TRUE	algorithm/src/dbg.h	/^#define TRUE /;"	d
+TSPVCT	examples/examples/graphalg/ex-1.c	/^#define            TSPVCT /;"	d	file:
+TXTSIZ	examples/examples/encrypt/ex-2.c	/^#define            TXTSIZ /;"	d	file:
+Token	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	t	typeref:enum:Token_
+Token_	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	g
+TspTestV	examples/examples/graphalg/ex-1.c	/^static CoordData TspTestV[TSPVCT] = {$/;"	v	file:
+TspVertex	examples/include/graphalg.h	/^} TspVertex;$/;"	t	typeref:struct:TspVertex_
+TspVertex_	examples/include/graphalg.h	/^typedef struct TspVertex_ {$/;"	s
+VertexColor	examples/include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	t	typeref:enum:VertexColor_
+VertexColor_	examples/include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	g
+Words	examples/examples/bistree/ex-1.c	/^   dip} Words;$/;"	t	typeref:enum:Words_	file:
+Words	examples/examples/search/ex-1.c	/^   dip} Words;$/;"	t	typeref:enum:Words_	file:
+Words_	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	g	file:
+Words_	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	g	file:
+__COMMOM_H__	algorithm/src/common.h	/^#define __COMMOM_H__$/;"	d
+__COMMON_API_H__	algorithm/src/commonapi.h	/^#define __COMMON_API_H__$/;"	d
+__QUEUE_H__	algorithm/src/queue.h	/^#define __QUEUE_H__$/;"	d
+__STACK_H__	algorithm/src/stack.h	/^#define __STACK_H__$/;"	d
+__dbg_h__	algorithm/src/dbg.h	/^#define __dbg_h__$/;"	d
+_queue	algorithm/src/queue.h	/^typedef struct _queue {$/;"	s
+_stack	algorithm/src/stack.h	/^typedef struct _stack$/;"	s
+adjacent	examples/include/graph.h	/^Set                adjacent;$/;"	m	struct:AdjList_
+adjlists	examples/include/graph.h	/^List               adjlists;$/;"	m	struct:Graph_
+alloc_frame	examples/source/frames.c	/^int alloc_frame(List *frames) {$/;"	f
+arclen	examples/source/arclen.c	/^void arclen(SPoint p1, SPoint p2, double *length) {$/;"	f
+bat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+bat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+bfs	examples/source/bfs.c	/^int bfs(Graph *graph, BfsVertex *start, List *hops) {$/;"	f
+bisearch	examples/source/bisearch.c	/^int bisearch(void *sorted, const void *target, int size, int esize, int$/;"	f
+bistree_destroy	examples/source/bistree.c	/^void bistree_destroy(BisTree *tree) {$/;"	f
+bistree_init	examples/source/bistree.c	/^void bistree_init(BisTree *tree, int (*compare)(const void *key1, const void$/;"	f
+bistree_insert	examples/source/bistree.c	/^int bistree_insert(BisTree *tree, const void *data) {$/;"	f
+bistree_lookup	examples/source/bistree.c	/^int bistree_lookup(BisTree *tree, void **data) {$/;"	f
+bistree_remove	examples/source/bistree.c	/^int bistree_remove(BisTree *tree, const void *data) {$/;"	f
+bistree_size	examples/include/bistree.h	/^#define bistree_size(/;"	d
+bit_get	examples/source/bit.c	/^int bit_get(const unsigned char *bits, int pos) {$/;"	f
+bit_rot_left	examples/source/bit.c	/^void bit_rot_left(unsigned char *bits, int size, int count) {$/;"	f
+bit_set	examples/source/bit.c	/^void bit_set(unsigned char *bits, int pos, int state) {$/;"	f
+bit_xor	examples/source/bit.c	/^void bit_xor(const unsigned char *bits1, const unsigned char *bits2, unsigned$/;"	f
+bitree_data	examples/include/bitree.h	/^#define bitree_data(/;"	d
+bitree_destroy	examples/source/bitree.c	/^void bitree_destroy(BiTree *tree) {$/;"	f
+bitree_init	examples/source/bitree.c	/^void bitree_init(BiTree *tree, void (*destroy)(void *data)) {$/;"	f
+bitree_ins_left	examples/source/bitree.c	/^int bitree_ins_left(BiTree *tree, BiTreeNode *node, const void *data) {$/;"	f
+bitree_ins_right	examples/source/bitree.c	/^int bitree_ins_right(BiTree *tree, BiTreeNode *node, const void *data) {$/;"	f
+bitree_is_eob	examples/include/bitree.h	/^#define bitree_is_eob(/;"	d
+bitree_is_leaf	examples/include/bitree.h	/^#define bitree_is_leaf(/;"	d
+bitree_left	examples/include/bitree.h	/^#define bitree_left(/;"	d
+bitree_merge	examples/source/bitree.c	/^int bitree_merge(BiTree *merge, BiTree *left, BiTree *right, const void$/;"	f
+bitree_rem_left	examples/source/bitree.c	/^void bitree_rem_left(BiTree *tree, BiTreeNode *node) {$/;"	f
+bitree_rem_right	examples/source/bitree.c	/^void bitree_rem_right(BiTree *tree, BiTreeNode *node) {$/;"	f
+bitree_right	examples/include/bitree.h	/^#define bitree_right(/;"	d
+bitree_root	examples/include/bitree.h	/^#define bitree_root(/;"	d
+bitree_size	examples/include/bitree.h	/^#define bitree_size(/;"	d
+black	examples/include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	e	enum:VertexColor_
+buckets	examples/include/chtbl.h	/^int                buckets;$/;"	m	struct:CHTbl_
+build_table	examples/source/huffman.c	/^static void build_table(BiTreeNode *node, unsigned short code, unsigned char$/;"	f	file:
+build_tree	examples/source/huffman.c	/^static int build_tree(int *freqs, BiTree **tree) {$/;"	f	file:
+cat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+cat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+cbc_decipher	examples/source/cbc.c	/^void cbc_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f
+cbc_encipher	examples/source/cbc.c	/^void cbc_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	f
+check	algorithm/src/dbg.h	/^#define check(/;"	d
+check_debug	algorithm/src/dbg.h	/^#define check_debug(/;"	d
+check_mem	algorithm/src/dbg.h	/^#define check_mem(/;"	d
+chtbl_destroy	examples/source/chtbl.c	/^void chtbl_destroy(CHTbl *htbl) {$/;"	f
+chtbl_init	examples/source/chtbl.c	/^int chtbl_init(CHTbl *htbl, int buckets, int (*h)(const void *key), int$/;"	f
+chtbl_insert	examples/source/chtbl.c	/^int chtbl_insert(CHTbl *htbl, const void *data) {$/;"	f
+chtbl_lookup	examples/source/chtbl.c	/^int chtbl_lookup(const CHTbl *htbl, void **data) {$/;"	f
+chtbl_remove	examples/source/chtbl.c	/^int chtbl_remove(CHTbl *htbl, void **data) {$/;"	f
+chtbl_size	examples/include/chtbl.h	/^#define chtbl_size(/;"	d
+clean_errno	algorithm/src/dbg.h	/^#define clean_errno(/;"	d
+clist_data	examples/include/clist.h	/^#define clist_data(/;"	d
+clist_destroy	examples/source/clist.c	/^void clist_destroy(CList *list) {$/;"	f
+clist_head	examples/include/clist.h	/^#define clist_head(/;"	d
+clist_init	examples/source/clist.c	/^void clist_init(CList *list, void (*destroy)(void *data)) {$/;"	f
+clist_ins_next	examples/source/clist.c	/^int clist_ins_next(CList *list, CListElmt *element, const void *data) {$/;"	f
+clist_next	examples/include/clist.h	/^#define clist_next(/;"	d
+clist_rem_next	examples/source/clist.c	/^int clist_rem_next(CList *list, CListElmt *element, void **data) {$/;"	f
+clist_size	examples/include/clist.h	/^#define clist_size(/;"	d
+code	examples/include/compress.h	/^unsigned short     code;$/;"	m	struct:HuffCode_
+color	examples/include/bfs.h	/^VertexColor        color;$/;"	m	struct:BfsVertex_
+color	examples/include/dfs.h	/^VertexColor        color;$/;"	m	struct:DfsVertex_
+color	examples/include/graphalg.h	/^VertexColor        color;$/;"	m	struct:MstVertex_
+color	examples/include/graphalg.h	/^VertexColor        color;$/;"	m	struct:PathVertex_
+color	examples/include/graphalg.h	/^VertexColor        color;$/;"	m	struct:TspVertex_
+compare	examples/include/bitree.h	/^int                (*compare)(const void *key1, const void *key2);$/;"	m	struct:BiTree_
+compare	examples/include/heap.h	/^int                (*compare)(const void *key1, const void *key2);$/;"	m	struct:Heap_
+compare_dir	examples/source/directls.c	/^static int compare_dir(const void *key1, const void *key2) {$/;"	f	file:
+compare_freq	examples/source/huffman.c	/^static int compare_freq(const void *tree1, const void *tree2) {$/;"	f	file:
+compare_int	examples/examples/heap/ex-1.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:
+compare_int	examples/examples/pqueue/ex-1.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:
+compare_int	examples/examples/sort/ex-1.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:
+compare_int	examples/source/qksort.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:
+compare_str	examples/examples/bistree/ex-1.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:
+compare_str	examples/examples/search/ex-1.c	/^static int compare_str(const void *key1, const void *key2) {$/;"	f	file:
+compare_str	examples/examples/search/ex-2.c	/^static int compare_str(const void *key1, const void *key2) {$/;"	f	file:
+compare_str	examples/examples/sort/ex-1.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:
+compare_str	examples/source/spell.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:
+compare_win	examples/source/lz77.c	/^static int compare_win(const unsigned char *window, const unsigned char$/;"	f	file:
+cover	examples/source/cover.c	/^int cover(Set *members, Set *subsets, Set *covering) {$/;"	f
+ctsort	examples/source/ctsort.c	/^int ctsort(int *data, int size, int k) {$/;"	f
+curPos	algorithm/src/stack.h	/^    int curPos;$/;"	m	struct:_stack
+cvxhull	examples/source/cvxhull.c	/^int cvxhull(const List *P, List *polygon) {$/;"	f
+d	examples/include/encrypt.h	/^Huge               d;$/;"	m	struct:RsaPriKey_
+d	examples/include/graphalg.h	/^double             d;$/;"	m	struct:PathVertex_
+data	examples/include/bfs.h	/^void               *data;$/;"	m	struct:BfsVertex_
+data	examples/include/bistree.h	/^void               *data;$/;"	m	struct:AvlNode_
+data	examples/include/bitree.h	/^void               *data;$/;"	m	struct:BiTreeNode_
+data	examples/include/clist.h	/^void               *data;$/;"	m	struct:CListElmt_
+data	examples/include/dfs.h	/^void               *data;$/;"	m	struct:DfsVertex_
+data	examples/include/dlist.h	/^void               *data;$/;"	m	struct:DListElmt_
+data	examples/include/graphalg.h	/^void               *data;$/;"	m	struct:MstVertex_
+data	examples/include/graphalg.h	/^void               *data;$/;"	m	struct:PathVertex_
+data	examples/include/graphalg.h	/^void               *data;$/;"	m	struct:TspVertex_
+data	examples/include/list.h	/^void               *data;$/;"	m	struct:ListElmt_
+debug	algorithm/src/dbg.h	/^#define debug(/;"	d
+decipher	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	e	enum:DesEorD_	file:
+dequeue	algorithm/src/queue.c	/^QData dequeue(Queue *pq)$/;"	f
+des_decipher	examples/source/des.c	/^void des_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f
+des_encipher	examples/source/des.c	/^void des_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	f
+des_main	examples/source/des.c	/^static int des_main(const unsigned char *source, unsigned char *target, const$/;"	f	file:
+destroy	examples/include/bitree.h	/^void               (*destroy)(void *data);$/;"	m	struct:BiTree_
+destroy	examples/include/chtbl.h	/^void               (*destroy)(void *data);$/;"	m	struct:CHTbl_
+destroy	examples/include/clist.h	/^void               (*destroy)(void *data);$/;"	m	struct:CList_
+destroy	examples/include/dlist.h	/^void               (*destroy)(void *data);$/;"	m	struct:DList_
+destroy	examples/include/graph.h	/^void               (*destroy)(void *data);$/;"	m	struct:Graph_
+destroy	examples/include/heap.h	/^void               (*destroy)(void *data);$/;"	m	struct:Heap_
+destroy	examples/include/list.h	/^void               (*destroy)(void *data);$/;"	m	struct:List_
+destroy	examples/include/ohtbl.h	/^void               (*destroy)(void *data);$/;"	m	struct:OHTbl_
+destroy_left	examples/source/bistree.c	/^static void destroy_left(BisTree *tree, BiTreeNode *node) {$/;"	f	file:
+destroy_netid	examples/examples/graph/ex-2.c	/^static void destroy_netid(void *netid) {$/;"	f	file:
+destroy_right	examples/source/bistree.c	/^static void destroy_right(BisTree *tree, BiTreeNode *node) {$/;"	f	file:
+destroy_task	examples/examples/graph/ex-3.c	/^static void destroy_task(void *task) {$/;"	f	file:
+destroy_tree	examples/source/huffman.c	/^static void destroy_tree(void *tree) {$/;"	f	file:
+dfs	examples/source/dfs.c	/^int dfs(Graph *graph, List *ordered) {$/;"	f
+dfs_main	examples/source/dfs.c	/^static int dfs_main(Graph *graph, AdjList *adjlist, List *ordered) {$/;"	f	file:
+digit	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+dip	examples/examples/bistree/ex-1.c	/^   dip} Words;$/;"	e	enum:Words_	file:
+dip	examples/examples/search/ex-1.c	/^   dip} Words;$/;"	e	enum:Words_	file:
+directls	examples/source/directls.c	/^int directls(const char *path, Directory **dir) {$/;"	f
+dlist_data	examples/include/dlist.h	/^#define dlist_data(/;"	d
+dlist_destroy	examples/source/dlist.c	/^void dlist_destroy(DList *list) {$/;"	f
+dlist_head	examples/include/dlist.h	/^#define dlist_head(/;"	d
+dlist_init	examples/source/dlist.c	/^void dlist_init(DList *list, void (*destroy)(void *data)) {$/;"	f
+dlist_ins_next	examples/source/dlist.c	/^int dlist_ins_next(DList *list, DListElmt *element, const void *data) {$/;"	f
+dlist_ins_prev	examples/source/dlist.c	/^int dlist_ins_prev(DList *list, DListElmt *element, const void *data) {$/;"	f
+dlist_is_head	examples/include/dlist.h	/^#define dlist_is_head(/;"	d
+dlist_is_tail	examples/include/dlist.h	/^#define dlist_is_tail(/;"	d
+dlist_next	examples/include/dlist.h	/^#define dlist_next(/;"	d
+dlist_prev	examples/include/dlist.h	/^#define dlist_prev(/;"	d
+dlist_remove	examples/source/dlist.c	/^int dlist_remove(DList *list, DListElmt *element, void **data) {$/;"	f
+dlist_size	examples/include/dlist.h	/^#define dlist_size(/;"	d
+dlist_tail	examples/include/dlist.h	/^#define dlist_tail(/;"	d
+e	examples/include/encrypt.h	/^Huge               e;$/;"	m	struct:RsaPubKey_
+ecount	examples/include/graph.h	/^int                ecount;$/;"	m	struct:Graph_
+encipher	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	e	enum:DesEorD_	file:
+enqueue	algorithm/src/queue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
+error	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+f	examples/examples/nummeths/ex-1.c	/^static double f(double x) {$/;"	f	file:
+fact	examples/source/fact.c	/^int fact(int n) {$/;"	f
+factor	examples/include/bistree.h	/^int                factor;$/;"	m	struct:AvlNode_
+factor	examples/source/factor.c	/^void factor(int number, int n, int j) {$/;"	f
+facttail	examples/source/facttail.c	/^int facttail(int n, int a) {$/;"	f
+free_frame	examples/source/frames.c	/^int free_frame(List *frames, int frame_number) {$/;"	f
+freq	examples/include/compress.h	/^int                freq;$/;"	m	struct:HuffNode_
+g	examples/examples/nummeths/ex-1.c	/^static double g(double x) {$/;"	f	file:
+geodist	examples/source/geodist.c	/^int geodist(double lat1, double lon1, double lat2, double lon2, double *d) {$/;"	f
+get_parcel	examples/source/parcels.c	/^int get_parcel(PQueue *parcels, Parcel *parcel) {$/;"	f
+graph_adjlist	examples/source/graph.c	/^int graph_adjlist(const Graph *graph, const void *data, AdjList **adjlist) {$/;"	f
+graph_adjlists	examples/include/graph.h	/^#define graph_adjlists(/;"	d
+graph_destroy	examples/source/graph.c	/^void graph_destroy(Graph *graph) {$/;"	f
+graph_ecount	examples/include/graph.h	/^#define graph_ecount(/;"	d
+graph_init	examples/source/graph.c	/^void graph_init(Graph *graph, int (*match)(const void *key1, const void$/;"	f
+graph_ins_edge	examples/source/graph.c	/^int graph_ins_edge(Graph *graph, const void *data1, const void *data2) {$/;"	f
+graph_ins_vertex	examples/source/graph.c	/^int graph_ins_vertex(Graph *graph, const void *data) {$/;"	f
+graph_is_adjacent	examples/source/graph.c	/^int graph_is_adjacent(const Graph *graph, const void *data1, const void$/;"	f
+graph_rem_edge	examples/source/graph.c	/^int graph_rem_edge(Graph *graph, void *data1, void **data2) {$/;"	f
+graph_rem_vertex	examples/source/graph.c	/^int graph_rem_vertex(Graph *graph, void **data) {$/;"	f
+graph_vcount	examples/include/graph.h	/^#define graph_vcount(/;"	d
+gray	examples/include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	e	enum:VertexColor_
+h	examples/include/chtbl.h	/^int                (*h)(const void *key);$/;"	m	struct:CHTbl_
+h1	examples/include/ohtbl.h	/^int                (*h1)(const void *key);$/;"	m	struct:OHTbl_
+h1_char	examples/examples/ohtbl/ex-1.c	/^static int h1_char(const void *key) {$/;"	f	file:
+h2	examples/include/ohtbl.h	/^int                (*h2)(const void *key);$/;"	m	struct:OHTbl_
+h2_char	examples/examples/ohtbl/ex-1.c	/^static int h2_char(const void *key) {$/;"	f	file:
+h_char	examples/examples/chtbl/ex-1.c	/^static int h_char(const void *key) {$/;"	f	file:
+hashpjw	examples/source/hashpjw.c	/^int hashpjw(const void *key) {$/;"	f
+hat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+hat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+head	algorithm/src/queue.h	/^    int head;$/;"	m	struct:_queue
+head	examples/include/clist.h	/^CListElmt          *head;$/;"	m	struct:CList_
+head	examples/include/dlist.h	/^DListElmt          *head;$/;"	m	struct:DList_
+head	examples/include/list.h	/^ListElmt           *head;$/;"	m	struct:List_
+heap_destroy	examples/source/heap.c	/^void heap_destroy(Heap *heap) {$/;"	f
+heap_extract	examples/source/heap.c	/^int heap_extract(Heap *heap, void **data) {$/;"	f
+heap_init	examples/source/heap.c	/^void heap_init(Heap *heap, int (*compare)(const void *key1, const void *key2),$/;"	f
+heap_insert	examples/source/heap.c	/^int heap_insert(Heap *heap, const void *data) {$/;"	f
+heap_left	examples/source/heap.c	/^#define heap_left(/;"	d	file:
+heap_parent	examples/source/heap.c	/^#define heap_parent(/;"	d	file:
+heap_right	examples/source/heap.c	/^#define heap_right(/;"	d	file:
+heap_size	examples/include/heap.h	/^#define heap_size(/;"	d
+hidden	examples/include/bistree.h	/^int                hidden;$/;"	m	struct:AvlNode_
+hide	examples/source/bistree.c	/^static int hide(BisTree *tree, BiTreeNode *node, const void *data) {$/;"	f	file:
+hop	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+hop	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+hops	examples/include/bfs.h	/^int                hops;$/;"	m	struct:BfsVertex_
+huffman_compress	examples/source/huffman.c	/^int huffman_compress(const unsigned char *original, unsigned char$/;"	f
+huffman_uncompress	examples/source/huffman.c	/^int huffman_uncompress(const unsigned char *compressed, unsigned char$/;"	f
+inorder	examples/source/traverse.c	/^int inorder(const BiTreeNode *node, List *list) {$/;"	f
+insert	examples/source/bistree.c	/^static int insert(BisTree *tree, BiTreeNode **node, const void *data, int$/;"	f	file:
+insert_int	examples/examples/bitree/ex-1.c	/^static int insert_int(BiTree *tree, int i) {$/;"	f	file:
+interpol	examples/source/interpol.c	/^int interpol(const double *x, const double *fx, int n, double *z, double *pz,$/;"	f
+isEmpty	algorithm/src/stack.c	/^int isEmpty(Stack *ps){$/;"	f
+isQEmpty	algorithm/src/queue.c	/^int isQEmpty(Queue *pq)$/;"	f
+issort	examples/source/issort.c	/^int issort(void *data, int size, int esize, int (*compare)(const void *key1,$/;"	f
+key	examples/include/cover.h	/^void               *key;$/;"	m	struct:KSet_
+key	examples/include/graphalg.h	/^double             key;$/;"	m	struct:MstVertex_
+left	examples/include/bitree.h	/^struct BiTreeNode_ *left;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_
+left_n_rotate	algorithm/src/commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+left_rotate	algorithm/src/commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
+lex	examples/source/lex.c	/^Token lex(const char *istream, CHTbl *symtbl) {$/;"	f
+lexeme	examples/include/symbol.h	/^char               *lexeme;$/;"	m	struct:Symbol_
+lexit	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+lint	examples/source/lint.c	/^int lint(Point p1, Point p2, Point p3, Point p4) {$/;"	f
+list_data	examples/include/list.h	/^#define list_data(/;"	d
+list_destroy	examples/source/list.c	/^void list_destroy(List *list) {$/;"	f
+list_head	examples/include/list.h	/^#define list_head(/;"	d
+list_init	examples/source/list.c	/^void list_init(List *list, void (*destroy)(void *data)) {$/;"	f
+list_ins_next	examples/source/list.c	/^int list_ins_next(List *list, ListElmt *element, const void *data) {$/;"	f
+list_is_head	examples/include/list.h	/^#define list_is_head(/;"	d
+list_is_tail	examples/include/list.h	/^#define list_is_tail(/;"	d
+list_next	examples/include/list.h	/^#define list_next(/;"	d
+list_rem_next	examples/source/list.c	/^int list_rem_next(List *list, ListElmt *element, void **data) {$/;"	f
+list_size	examples/include/list.h	/^#define list_size(/;"	d
+list_tail	examples/include/list.h	/^#define list_tail(/;"	d
+log_err	algorithm/src/dbg.h	/^#define log_err(/;"	d
+log_info	algorithm/src/dbg.h	/^#define log_info(/;"	d
+log_warn	algorithm/src/dbg.h	/^#define log_warn(/;"	d
+lookup	examples/source/bistree.c	/^static int lookup(BisTree *tree, BiTreeNode *node, void **data) {$/;"	f	file:
+lsqe	examples/source/lsqe.c	/^void lsqe(const double *x, const double *y, int n, double *b1, double *b0) {$/;"	f
+lz77_compress	examples/source/lz77.c	/^int lz77_compress(const unsigned char *original, unsigned char **compressed,$/;"	f
+lz77_uncompress	examples/source/lz77.c	/^int lz77_uncompress(const unsigned char *compressed, unsigned char$/;"	f
+main	algorithm/src/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	examples/examples/bistree/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/bit/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/bitree/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/chtbl/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/clist/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/clist/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/compress/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/dlist/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/encrypt/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/encrypt/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/geometry/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/geometry/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/graph/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/graph/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/graph/ex-3.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/graphalg/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/graphalg/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/heap/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/list/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/nummeths/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/ohtbl/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/pqueue/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/queue/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/recurse/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/recurse/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/search/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/search/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/set/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/set/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/sort/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/sort/ex-2.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/examples/stack/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
+match	examples/include/chtbl.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:CHTbl_
+match	examples/include/clist.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:CList_
+match	examples/include/dlist.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:DList_
+match	examples/include/graph.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:Graph_
+match	examples/include/list.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:List_
+match	examples/include/ohtbl.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:OHTbl_
+match_char	examples/examples/chtbl/ex-1.c	/^static int match_char(const void *char1, const void *char2) {$/;"	f	file:
+match_char	examples/examples/ohtbl/ex-1.c	/^static int match_char(const void *char1, const void *char2) {$/;"	f	file:
+match_int	examples/examples/set/ex-1.c	/^static int match_int(const void *key1, const void *key2) {$/;"	f	file:
+match_key	examples/examples/set/ex-2.c	/^int match_key(const void *key1, const void *key2) {$/;"	f
+match_mst	examples/examples/graphalg/ex-1.c	/^static int match_mst(const void *mst1, const void *mst2) {$/;"	f	file:
+match_netid	examples/examples/graph/ex-2.c	/^static int match_netid(const void *netid1, const void *netid2) {$/;"	f	file:
+match_pth	examples/examples/graphalg/ex-1.c	/^static int match_pth(const void *pth1, const void *pth2) {$/;"	f	file:
+match_pth	examples/examples/graphalg/ex-2.c	/^static int match_pth(const void *pth1, const void *pth2) {$/;"	f	file:
+match_skill	examples/examples/set/ex-2.c	/^int match_skill(const void *skill1, const void *skill2) {$/;"	f
+match_str	examples/examples/graph/ex-1.c	/^static int match_str(const void *str1, const void *str2) {$/;"	f	file:
+match_task	examples/examples/graph/ex-3.c	/^static int match_task(const void *task1, const void *task2) {$/;"	f	file:
+match_tsp	examples/examples/graphalg/ex-1.c	/^static int match_tsp(const void *tsp1, const void *tsp2) {$/;"	f	file:
+max	algorithm/src/commonapi.c	/^int max(int x, int y) {$/;"	f
+max_arr	algorithm/src/commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
+merge	examples/source/mgsort.c	/^static int merge(void *data, int esize, int i, int j, int k, int (*compare)$/;"	f	file:
+mgsort	examples/source/mgsort.c	/^int mgsort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	f
+min	algorithm/src/commonapi.c	/^int min(int x, int y) {$/;"	f
+modexp	examples/source/rsa.c	/^static Huge modexp(Huge a, Huge b, Huge n) {$/;"	f	file:
+mom	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mom	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mop	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mop	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mst	examples/source/mst.c	/^int mst(Graph *graph, const MstVertex *start, List *span, int (*match)(const$/;"	f
+n	examples/include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPriKey_
+n	examples/include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPubKey_
+name	examples/include/directls.h	/^char               name[MAXNAMLEN + 1];$/;"	m	struct:Directory_
+next	examples/include/clist.h	/^struct CListElmt_  *next;$/;"	m	struct:CListElmt_	typeref:struct:CListElmt_::CListElmt_
+next	examples/include/dlist.h	/^struct DListElmt_  *next;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_
+next	examples/include/list.h	/^struct ListElmt_   *next;$/;"	m	struct:ListElmt_	typeref:struct:ListElmt_::ListElmt_
+nextQIndex	algorithm/src/queue.c	/^int nextQIndex(int idx)$/;"	f
+next_token	examples/include/symbol.h	/^static char *next_token(const char *istream) {$/;"	f
+number	examples/include/page.h	/^int                number;$/;"	m	struct:Page_
+ohtbl_destroy	examples/source/ohtbl.c	/^void ohtbl_destroy(OHTbl *htbl) {$/;"	f
+ohtbl_init	examples/source/ohtbl.c	/^int ohtbl_init(OHTbl *htbl, int positions, int (*h1)(const void *key), int$/;"	f
+ohtbl_insert	examples/source/ohtbl.c	/^int ohtbl_insert(OHTbl *htbl, const void *data) {$/;"	f
+ohtbl_lookup	examples/source/ohtbl.c	/^int ohtbl_lookup(const OHTbl *htbl, void **data) {$/;"	f
+ohtbl_remove	examples/source/ohtbl.c	/^int ohtbl_remove(OHTbl *htbl, void **data) {$/;"	f
+ohtbl_size	examples/include/ohtbl.h	/^#define ohtbl_size(/;"	d
+other	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+parent	examples/include/graphalg.h	/^struct MstVertex_  *parent;$/;"	m	struct:MstVertex_	typeref:struct:MstVertex_::MstVertex_
+parent	examples/include/graphalg.h	/^struct PathVertex_ *parent;$/;"	m	struct:PathVertex_	typeref:struct:PathVertex_::PathVertex_
+partition	examples/source/qksort.c	/^static int partition(void *data, int esize, int i, int k, int (*compare)$/;"	f	file:
+peek	algorithm/src/stack.c	/^SData peek(Stack *ps){$/;"	f
+permute	examples/source/des.c	/^static void permute(unsigned char *bits, const int *mapping, int n) {$/;"	f	file:
+phi	examples/include/geometry.h	/^                   phi;$/;"	m	struct:SPoint_
+pop	algorithm/src/stack.c	/^SData pop(Stack *ps)$/;"	f
+positions	examples/include/ohtbl.h	/^int                positions;$/;"	m	struct:OHTbl_
+postorder	examples/source/traverse.c	/^int postorder(const BiTreeNode *node, List *list) {$/;"	f
+pqueue_destroy	examples/include/pqueue.h	/^#define pqueue_destroy /;"	d
+pqueue_extract	examples/include/pqueue.h	/^#define pqueue_extract /;"	d
+pqueue_init	examples/include/pqueue.h	/^#define pqueue_init /;"	d
+pqueue_insert	examples/include/pqueue.h	/^#define pqueue_insert /;"	d
+pqueue_peek	examples/include/pqueue.h	/^#define pqueue_peek(/;"	d
+pqueue_size	examples/include/pqueue.h	/^#define pqueue_size /;"	d
+preorder	examples/source/traverse.c	/^int preorder(const BiTreeNode *node, List *list) {$/;"	f
+preorder_tree	examples/examples/bistree/ex-1.c	/^static void preorder_tree(const BiTreeNode *node) {$/;"	f	file:
+prev	examples/include/dlist.h	/^struct DListElmt_  *prev;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_
+print_graph	examples/examples/graph/ex-1.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:
+print_graph	examples/examples/graph/ex-2.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:
+print_graph	examples/examples/graph/ex-3.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:
+print_graph_mst	examples/examples/graphalg/ex-1.c	/^static void print_graph_mst(const Graph *graph) {$/;"	f	file:
+print_graph_pth	examples/examples/graphalg/ex-1.c	/^static void print_graph_pth(const Graph *graph) {$/;"	f	file:
+print_graph_pth	examples/examples/graphalg/ex-2.c	/^static void print_graph_pth(const Graph *graph) {$/;"	f	file:
+print_heap	examples/examples/heap/ex-1.c	/^static void print_heap(Heap *heap) {$/;"	f	file:
+print_idata	examples/examples/sort/ex-1.c	/^static void print_idata(const int *array, int size) {$/;"	f	file:
+print_inorder	examples/examples/bitree/ex-1.c	/^static void print_inorder(const BiTreeNode *node) {$/;"	f	file:
+print_list	examples/examples/clist/ex-1.c	/^static void print_list(const CList *list) {$/;"	f	file:
+print_list	examples/examples/dlist/ex-1.c	/^void print_list(const DList *list) {$/;"	f
+print_list	examples/examples/list/ex-1.c	/^static void print_list(const List *list) {$/;"	f	file:
+print_list_tsp	examples/examples/graphalg/ex-1.c	/^static void print_list_tsp(List *vertices) {$/;"	f	file:
+print_players	examples/examples/set/ex-2.c	/^static void print_players(const Set *players) {$/;"	f	file:
+print_postorder	examples/examples/bitree/ex-1.c	/^static void print_postorder(const BiTreeNode *node) {$/;"	f	file:
+print_pqueue	examples/examples/pqueue/ex-1.c	/^static void print_pqueue(PQueue *pqueue) {$/;"	f	file:
+print_preorder	examples/examples/bitree/ex-1.c	/^static void print_preorder(const BiTreeNode *node) {$/;"	f	file:
+print_queue	examples/examples/queue/ex-1.c	/^static void print_queue(const Queue *queue) {$/;"	f	file:
+print_sdata	examples/examples/sort/ex-1.c	/^static void print_sdata(char array[][STRSIZ], int size) {$/;"	f	file:
+print_set	examples/examples/set/ex-1.c	/^static void print_set(const Set *set) {$/;"	f	file:
+print_skills	examples/examples/set/ex-2.c	/^static void print_skills(const Set *skills) {$/;"	f	file:
+print_stack	examples/examples/stack/ex-1.c	/^static void print_stack(const Stack *stack) {$/;"	f	file:
+print_table	examples/examples/chtbl/ex-1.c	/^static void print_table(const CHTbl *htbl) {$/;"	f	file:
+print_table	examples/examples/ohtbl/ex-1.c	/^static void print_table(const OHTbl *htbl) {$/;"	f	file:
+priority	examples/include/parcel.h	/^int                priority;$/;"	m	struct:Parcel_
+process_event	examples/source/events.c	/^int process_event(Queue *events, int (*dispatch)(Event *event)) {$/;"	f
+push	algorithm/src/stack.c	/^int push(Stack *ps, SData data)$/;"	f
+put_parcel	examples/source/parcels.c	/^int put_parcel(PQueue *parcels, const Parcel *parcel) {$/;"	f
+qksort	examples/source/qksort.c	/^int qksort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	f
+qpeek	algorithm/src/queue.c	/^QData qpeek(Queue *pq)$/;"	f
+queArr	algorithm/src/queue.h	/^    QData queArr[QUEUE_SIZE];$/;"	m	struct:_queue
+queueInit	algorithm/src/queue.c	/^void queueInit(Queue *pq)$/;"	f
+queue_dequeue	examples/source/queue.c	/^int queue_dequeue(Queue *queue, void **data) {$/;"	f
+queue_destroy	examples/include/queue.h	/^#define queue_destroy /;"	d
+queue_enqueue	examples/source/queue.c	/^int queue_enqueue(Queue *queue, const void *data) {$/;"	f
+queue_init	examples/include/queue.h	/^#define queue_init /;"	d
+queue_peek	examples/include/queue.h	/^#define queue_peek(/;"	d
+queue_size	examples/include/queue.h	/^#define queue_size /;"	d
+receive_event	examples/source/events.c	/^int receive_event(Queue *events, const Event *event) {$/;"	f
+recv_comp	examples/source/transfer.c	/^int recv_comp(int s, unsigned char **data, int *size, int flags) {$/;"	f
+reference	examples/include/page.h	/^int                reference;$/;"	m	struct:Page_
+relax	examples/source/shortest.c	/^static void relax(PathVertex *u, PathVertex *v, double weight) {$/;"	f	file:
+replace_page	examples/source/page.c	/^int replace_page(CListElmt **current) {$/;"	f
+rho	examples/include/geometry.h	/^double             rho,$/;"	m	struct:SPoint_
+right	examples/include/bitree.h	/^struct BiTreeNode_ *right;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_
+right_n_rotate	algorithm/src/commonapi.c	/^void right_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+right_rotate	algorithm/src/commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	f
+root	examples/include/bitree.h	/^BiTreeNode         *root;$/;"	m	struct:BiTree_
+root	examples/source/root.c	/^int root(double (*f)(double x), double (*g)(double x), double *x, int *n,$/;"	f
+rotate_left	examples/source/bistree.c	/^static void rotate_left(BiTreeNode **node) {$/;"	f	file:
+rotate_right	examples/source/bistree.c	/^static void rotate_right(BiTreeNode **node) {$/;"	f	file:
+route	examples/source/route.c	/^int route(List *paths, PathVertex *destination, PathVertex **next, int$/;"	f
+rsa_decipher	examples/source/rsa.c	/^void rsa_decipher(Huge ciphertext, Huge *plaintext, RsaPriKey prikey) {$/;"	f
+rsa_encipher	examples/source/rsa.c	/^void rsa_encipher(Huge plaintext, Huge *ciphertext, RsaPubKey pubkey) {$/;"	f
+rxsort	examples/source/rxsort.c	/^int rxsort(int *data, int size, int p, int k) {$/;"	f
+search_int	examples/examples/bitree/ex-1.c	/^static BiTreeNode *search_int(BiTree *tree, int i) {$/;"	f	file:
+send_comp	examples/source/transfer.c	/^int send_comp(int s, const unsigned char *data, int size, int flags) {$/;"	f
+sentinel	algorithm/src/dbg.h	/^#define sentinel(/;"	d
+set	examples/include/cover.h	/^Set                set;$/;"	m	struct:KSet_
+set_destroy	examples/include/set.h	/^#define set_destroy /;"	d
+set_difference	examples/source/set.c	/^int set_difference(Set *setd, const Set *set1, const Set *set2) {$/;"	f
+set_init	examples/source/set.c	/^void set_init(Set *set, int (*match)(const void *key1, const void *key2),$/;"	f
+set_insert	examples/source/set.c	/^int set_insert(Set *set, const void *data) {$/;"	f
+set_intersection	examples/source/set.c	/^int set_intersection(Set *seti, const Set *set1, const Set *set2) {$/;"	f
+set_is_equal	examples/source/set.c	/^int set_is_equal(const Set *set1, const Set *set2) {$/;"	f
+set_is_member	examples/source/set.c	/^int set_is_member(const Set *set, const void *data) {$/;"	f
+set_is_subset	examples/source/set.c	/^int set_is_subset(const Set *set1, const Set *set2) {$/;"	f
+set_remove	examples/source/set.c	/^int set_remove(Set *set, void **data) {$/;"	f
+set_size	examples/include/set.h	/^#define set_size(/;"	d
+set_union	examples/source/set.c	/^int set_union(Set *setu, const Set *set1, const Set *set2) {$/;"	f
+shortest	examples/source/shortest.c	/^int shortest(Graph *graph, const PathVertex *start, List *paths, int (*match)$/;"	f
+size	examples/include/bitree.h	/^int                size;$/;"	m	struct:BiTree_
+size	examples/include/chtbl.h	/^int                size;$/;"	m	struct:CHTbl_
+size	examples/include/clist.h	/^int                size;$/;"	m	struct:CList_
+size	examples/include/compress.h	/^unsigned char      size;$/;"	m	struct:HuffCode_
+size	examples/include/dlist.h	/^int                size;$/;"	m	struct:DList_
+size	examples/include/heap.h	/^int                size;$/;"	m	struct:Heap_
+size	examples/include/list.h	/^int                size;$/;"	m	struct:List_
+size	examples/include/ohtbl.h	/^int                size;$/;"	m	struct:OHTbl_
+spell	examples/source/spell.c	/^int spell(char (*dictionary)[SPELL_SIZE], int size, const char *word) {$/;"	f
+stackArr	algorithm/src/stack.h	/^    SData stackArr[STACK_SIZE];$/;"	m	struct:_stack
+stackInit	algorithm/src/stack.c	/^void stackInit(Stack *ps)$/;"	f
+stack_destroy	examples/include/stack.h	/^#define stack_destroy /;"	d
+stack_init	examples/include/stack.h	/^#define stack_init /;"	d
+stack_peek	examples/include/stack.h	/^#define stack_peek(/;"	d
+stack_pop	examples/source/stack.c	/^int stack_pop(Stack *stack, void **data) {$/;"	f
+stack_push	examples/source/stack.c	/^int stack_push(Stack *stack, const void *data) {$/;"	f
+stack_size	examples/include/stack.h	/^#define stack_size /;"	d
+swap	algorithm/src/commonapi.c	/^void swap(int *x, int *y) {$/;"	f
+swap_arr	algorithm/src/commonapi.c	/^void swap_arr(int arr[], int i, int j) {$/;"	f
+symbol	examples/include/compress.h	/^unsigned char      symbol;$/;"	m	struct:HuffNode_
+table	examples/include/chtbl.h	/^List               *table;$/;"	m	struct:CHTbl_
+table	examples/include/ohtbl.h	/^void               **table;$/;"	m	struct:OHTbl_
+tail	algorithm/src/queue.h	/^    int tail;$/;"	m	struct:_queue
+tail	examples/include/dlist.h	/^DListElmt          *tail;$/;"	m	struct:DList_
+tail	examples/include/list.h	/^ListElmt           *tail;$/;"	m	struct:List_
+tap	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+tap	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+theta	examples/include/geometry.h	/^                   theta,$/;"	m	struct:SPoint_
+tip	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+tip	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+token	examples/include/symbol.h	/^Token              token;$/;"	m	struct:Symbol_
+top	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+top	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+tree	examples/include/heap.h	/^void               **tree;$/;"	m	struct:Heap_
+tsp	examples/source/tsp.c	/^int tsp(List *vertices, const TspVertex *start, List *tour, int (*match)$/;"	f
+type	examples/include/event.h	/^int                type;$/;"	m	struct:Event_
+used	examples/include/compress.h	/^unsigned char      used;$/;"	m	struct:HuffCode_
+vacated	examples/include/ohtbl.h	/^void               *vacated;$/;"	m	struct:OHTbl_
+vacated	examples/source/ohtbl.c	/^static char        vacated;$/;"	v	file:
+vcount	examples/include/graph.h	/^int                vcount;$/;"	m	struct:Graph_
+vertex	examples/examples/graphalg/ex-1.c	/^char               vertex[STRSIZ];$/;"	m	struct:CoordData_	file:
+vertex	examples/include/graph.h	/^void               *vertex;$/;"	m	struct:AdjList_
+vertex1	examples/examples/graphalg/ex-1.c	/^char               vertex1[STRSIZ],$/;"	m	struct:EdgeData_	file:
+vertex1	examples/examples/graphalg/ex-2.c	/^char               vertex1[STRSIZ],$/;"	m	struct:EdgeData_	file:
+vertex2	examples/examples/graphalg/ex-1.c	/^                   vertex2[STRSIZ];$/;"	m	struct:EdgeData_	file:
+vertex2	examples/examples/graphalg/ex-2.c	/^                   vertex2[STRSIZ];$/;"	m	struct:EdgeData_	file:
+wax	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+wax	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+weight	examples/examples/graphalg/ex-1.c	/^double             weight;$/;"	m	struct:EdgeData_	file:
+weight	examples/examples/graphalg/ex-2.c	/^double             weight;$/;"	m	struct:EdgeData_	file:
+weight	examples/include/graphalg.h	/^double             weight;$/;"	m	struct:MstVertex_
+weight	examples/include/graphalg.h	/^double             weight;$/;"	m	struct:PathVertex_
+white	examples/include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	e	enum:VertexColor_
+x	examples/examples/graphalg/ex-1.c	/^double             x,$/;"	m	struct:CoordData_	file:
+x	examples/include/geometry.h	/^double             x,$/;"	m	struct:Point_
+x	examples/include/graphalg.h	/^double             x,$/;"	m	struct:TspVertex_
+y	examples/examples/graphalg/ex-1.c	/^                   y;$/;"	m	struct:CoordData_	file:
+y	examples/include/geometry.h	/^                   y,$/;"	m	struct:Point_
+y	examples/include/graphalg.h	/^                   y;$/;"	m	struct:TspVertex_
+z	examples/include/geometry.h	/^                   z;$/;"	m	struct:Point_
+zoo	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+zoo	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:

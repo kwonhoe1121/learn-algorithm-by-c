@@ -3,42 +3,28 @@
 
 int main(int argc, char *argv[])
 {
-    Queue queue;
+    Stack stack;
 
-    queueInit(&queue);
+    stackInit(&stack);
 
-    enqueue(&queue, 1);
-    enqueue(&queue, 2);
-    enqueue(&queue, 3);
-    enqueue(&queue, 4);
-    enqueue(&queue, 5);
+    push(&stack, 1);
+    push(&stack, 2);
+    push(&stack, 3);
+    push(&stack, 4);
+    push(&stack, 5);
 
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
+    debug("=================");
+    debug("Push [1, 2, 3, 4, 5] in Stack");
+    debug("=================");
+    debug("Pop %d ", pop(&stack));
+    debug("Peek %d ", peek(&stack));
+    debug("Pop %d ", pop(&stack));
+    debug("Pop %d ", pop(&stack));
+    debug("Peek %d ", peek(&stack));
+    debug("Pop %d ", pop(&stack));
+    debug("Pop %d ", pop(&stack));
+    debug("=================");
 
-    enqueue(&queue, 6);
-    enqueue(&queue, 7);
-    enqueue(&queue, 8);
-    enqueue(&queue, 9);
-
-    debug(" Dequeue %d ", dequeue(&queue));
-
-    enqueue(&queue, 10);
-
-    debug("=========================");
-
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-
-    return 0;
 }
 
 

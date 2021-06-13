@@ -14,6 +14,7 @@
 #include "dbg.h"
 #include "commonapi.h"
 #include "queue.h"
+#include "stack.h"
 
 #endif
 

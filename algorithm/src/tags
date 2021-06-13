@@ -12,20 +12,27 @@ RC_DUP	dbg.h	/^#define RC_DUP /;"	d
 RC_ERR	dbg.h	/^#define RC_ERR /;"	d
 RC_NFD	dbg.h	/^#define RC_NFD /;"	d
 RC_NRM	dbg.h	/^#define RC_NRM /;"	d
+SData	stack.h	/^typedef int SData;$/;"	t
+STACK_SIZE	stack.h	/^#define STACK_SIZE /;"	d
+Stack	stack.h	/^} Stack;$/;"	t	typeref:struct:_stack
 TRUE	dbg.h	/^#define TRUE /;"	d
 __COMMOM_H__	common.h	/^#define __COMMOM_H__$/;"	d
 __COMMON_API_H__	commonapi.h	/^#define __COMMON_API_H__$/;"	d
 __QUEUE_H__	queue.h	/^#define __QUEUE_H__$/;"	d
+__STACK_H__	stack.h	/^#define __STACK_H__$/;"	d
 __dbg_h__	dbg.h	/^#define __dbg_h__$/;"	d
 _queue	queue.h	/^typedef struct _queue {$/;"	s
+_stack	stack.h	/^typedef struct _stack$/;"	s
 check	dbg.h	/^#define check(/;"	d
 check_debug	dbg.h	/^#define check_debug(/;"	d
 check_mem	dbg.h	/^#define check_mem(/;"	d
 clean_errno	dbg.h	/^#define clean_errno(/;"	d
+curPos	stack.h	/^    int curPos;$/;"	m	struct:_stack
 debug	dbg.h	/^#define debug(/;"	d
 dequeue	queue.c	/^QData dequeue(Queue *pq)$/;"	f
 enqueue	queue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
 head	queue.h	/^    int head;$/;"	m	struct:_queue
+isEmpty	stack.c	/^int isEmpty(Stack *ps){$/;"	f
 isQEmpty	queue.c	/^int isQEmpty(Queue *pq)$/;"	f
 left_n_rotate	commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 left_rotate	commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
@@ -37,12 +44,17 @@ max	commonapi.c	/^int max(int x, int y) {$/;"	f
 max_arr	commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
 min	commonapi.c	/^int min(int x, int y) {$/;"	f
 nextQIndex	queue.c	/^int nextQIndex(int idx)$/;"	f
+peek	stack.c	/^SData peek(Stack *ps){$/;"	f
+pop	stack.c	/^SData pop(Stack *ps)$/;"	f
+push	stack.c	/^int push(Stack *ps, SData data)$/;"	f
 qpeek	queue.c	/^QData qpeek(Queue *pq)$/;"	f
 queArr	queue.h	/^    QData queArr[QUEUE_SIZE];$/;"	m	struct:_queue
 queueInit	queue.c	/^void queueInit(Queue *pq)$/;"	f
 right_n_rotate	commonapi.c	/^void right_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 right_rotate	commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	f
 sentinel	dbg.h	/^#define sentinel(/;"	d
+stackArr	stack.h	/^    SData stackArr[STACK_SIZE];$/;"	m	struct:_stack
+stackInit	stack.c	/^void stackInit(Stack *ps)$/;"	f
 swap	commonapi.c	/^void swap(int *x, int *y) {$/;"	f
 swap_arr	commonapi.c	/^void swap_arr(int arr[], int i, int j) {$/;"	f
 tail	queue.h	/^    int tail;$/;"	m	struct:_queue
