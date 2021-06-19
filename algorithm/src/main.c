@@ -3,28 +3,62 @@
 
 int main(int argc, char *argv[])
 {
-    Stack stack;
+    List list;
+    LData data;
 
-    stackInit(&stack);
+    initList(&list);
 
-    push(&stack, 1);
-    push(&stack, 2);
-    push(&stack, 3);
-    push(&stack, 4);
-    push(&stack, 5);
+    //삽입
+    insertList(&list, 1);
+    insertList(&list, 2);
+    insertList(&list, 3);
+    insertList(&list, 4);
+    insertList(&list, 5);
+    insertList(&list, 6);
+    insertList(&list, 7);
+    insertList(&list, 8);
+    insertList(&list, 9);
+    insertList(&list, 10);
 
-    debug("=================");
-    debug("Push [1, 2, 3, 4, 5] in Stack");
-    debug("=================");
-    debug("Pop %d ", pop(&stack));
-    debug("Peek %d ", peek(&stack));
-    debug("Pop %d ", pop(&stack));
-    debug("Pop %d ", pop(&stack));
-    debug("Peek %d ", peek(&stack));
-    debug("Pop %d ", pop(&stack));
-    debug("Pop %d ", pop(&stack));
-    debug("=================");
+    //리스트 데이터 총 개수
+    debug("listCount! %d", countList(&list));
 
+    //참조(조회)
+    if(firstList(&list, &data)) {
+        debug("firstList! %d ", data);
+        while(nextList(&list, &data)){
+            debug("nextList!! %d ", data);
+        }
+    }
+
+    //삭제
+    if(firstList(&list, &data)) {
+        if(data == 3) {
+            deleteList(&list);
+            debug("delete data 3!");
+        }
+        else {
+            while(nextList(&list, &data)){
+                if(data == 3) {
+                    deleteList(&list);
+                    debug("delete data 3!");
+                    break;
+                }
+            }
+        }
+    }
+
+    debug("listCount after delete data 3 ! %d", countList(&list));
+
+    //참조(조회)
+    if(firstList(&list, &data)) {
+        debug("firstList! %d ", data);
+        while(nextList(&list, &data)){
+            debug("nextList!! %d ", data);
+        }
+    }
+
+    return 0;
 }
 
 

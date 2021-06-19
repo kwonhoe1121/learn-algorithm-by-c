@@ -5,6 +5,10 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 FALSE	dbg.h	/^#define FALSE /;"	d
+LData	linkedlist.h	/^typedef int LData;$/;"	t
+LinkedList	linkedlist.h	/^} LinkedList;$/;"	t	typeref:struct:_list
+List	linkedlist.h	/^typedef LinkedList List;$/;"	t
+Node	linkedlist.h	/^} Node;$/;"	t	typeref:struct:_node
 QData	queue.h	/^typedef int QData;$/;"	t
 QUEUE_SIZE	queue.h	/^#define QUEUE_SIZE /;"	d
 Queue	queue.h	/^} Queue;$/;"	t	typeref:struct:_queue
@@ -18,20 +22,32 @@ Stack	stack.h	/^} Stack;$/;"	t	typeref:struct:_stack
 TRUE	dbg.h	/^#define TRUE /;"	d
 __COMMOM_H__	common.h	/^#define __COMMOM_H__$/;"	d
 __COMMON_API_H__	commonapi.h	/^#define __COMMON_API_H__$/;"	d
+__LINKED_LIST_H__	linkedlist.h	/^#define __LINKED_LIST_H__$/;"	d
 __QUEUE_H__	queue.h	/^#define __QUEUE_H__$/;"	d
 __STACK_H__	stack.h	/^#define __STACK_H__$/;"	d
 __dbg_h__	dbg.h	/^#define __dbg_h__$/;"	d
+_list	linkedlist.h	/^typedef struct _list {$/;"	s
+_node	linkedlist.h	/^typedef struct _node {$/;"	s
 _queue	queue.h	/^typedef struct _queue {$/;"	s
 _stack	stack.h	/^typedef struct _stack$/;"	s
+before	linkedlist.h	/^    Node *before;$/;"	m	struct:_list
 check	dbg.h	/^#define check(/;"	d
 check_debug	dbg.h	/^#define check_debug(/;"	d
 check_mem	dbg.h	/^#define check_mem(/;"	d
 clean_errno	dbg.h	/^#define clean_errno(/;"	d
+countList	linkedlist.c	/^int countList(List *plist) {$/;"	f
+cur	linkedlist.h	/^    Node *cur;$/;"	m	struct:_list
 curPos	stack.h	/^    int curPos;$/;"	m	struct:_stack
+data	linkedlist.h	/^    LData data;$/;"	m	struct:_node
 debug	dbg.h	/^#define debug(/;"	d
+deleteList	linkedlist.c	/^LData deleteList(List *plist) { $/;"	f
 dequeue	queue.c	/^QData dequeue(Queue *pq)$/;"	f
 enqueue	queue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
+firstList	linkedlist.c	/^int firstList(List *plist, LData *data) {$/;"	f
+head	linkedlist.h	/^    Node *head;$/;"	m	struct:_list
 head	queue.h	/^    int head;$/;"	m	struct:_queue
+initList	linkedlist.c	/^void initList(List *plist) { $/;"	f
+insertList	linkedlist.c	/^void insertList(List* plist, LData data) {$/;"	f
 isEmpty	stack.c	/^int isEmpty(Stack *ps){$/;"	f
 isQEmpty	queue.c	/^int isQEmpty(Queue *pq)$/;"	f
 left_n_rotate	commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
@@ -43,7 +59,10 @@ main	main.c	/^int main(int argc, char *argv[])$/;"	f
 max	commonapi.c	/^int max(int x, int y) {$/;"	f
 max_arr	commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
 min	commonapi.c	/^int min(int x, int y) {$/;"	f
+next	linkedlist.h	/^    struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+nextList	linkedlist.c	/^int nextList(List *plist, LData *data) { $/;"	f
 nextQIndex	queue.c	/^int nextQIndex(int idx)$/;"	f
+numOfData	linkedlist.h	/^    int numOfData;$/;"	m	struct:_list
 peek	stack.c	/^SData peek(Stack *ps){$/;"	f
 pop	stack.c	/^SData pop(Stack *ps)$/;"	f
 push	stack.c	/^int push(Stack *ps, SData data)$/;"	f

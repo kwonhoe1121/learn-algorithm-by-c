@@ -16,7 +16,7 @@ int enqueue(Queue *pq, QData data)
 
     pq->tail = nextQIndex(pq->tail);
     pq->queArr[pq->tail] = data;
-    return RC_NRM;
+    return TRUE;
 }
 
 QData dequeue(Queue *pq)
