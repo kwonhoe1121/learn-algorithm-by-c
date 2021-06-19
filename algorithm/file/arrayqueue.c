@@ -1,4 +1,4 @@
-#include "queue.h"
+#include "arrayqueue.h"
 
 void queueInit(Queue *pq)
 {

@@ -14,11 +14,13 @@
 
 typedef int QData;
 
-typedef struct _queue {
+typedef struct _arrayqueue {
     int head;
     int tail;
     QData queArr[QUEUE_SIZE];
-} Queue;
+} ArrayQueue;
+
+typedef ArrayQueue Queue;
 
 void queueInit(Queue *pq);
 int enqueue(Queue *pq, QData data);
