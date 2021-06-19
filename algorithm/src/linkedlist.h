@@ -10,7 +10,7 @@ typedef struct _node {
     struct _node *next;
 } Node;
 
-typedef struct _list {
+typedef struct _linkedlist {
     Node *head;
     Node *cur;
     Node *before;

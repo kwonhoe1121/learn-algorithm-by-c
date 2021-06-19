@@ -6,7 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 FALSE	dbg.h	/^#define FALSE /;"	d
 LData	linkedlist.h	/^typedef int LData;$/;"	t
-LinkedList	linkedlist.h	/^} LinkedList;$/;"	t	typeref:struct:_list
+LinkedList	linkedlist.h	/^} LinkedList;$/;"	t	typeref:struct:_linkedlist
 List	linkedlist.h	/^typedef LinkedList List;$/;"	t
 Node	linkedlist.h	/^} Node;$/;"	t	typeref:struct:_node
 QData	queue.h	/^typedef int QData;$/;"	t
@@ -26,17 +26,17 @@ __LINKED_LIST_H__	linkedlist.h	/^#define __LINKED_LIST_H__$/;"	d
 __QUEUE_H__	queue.h	/^#define __QUEUE_H__$/;"	d
 __STACK_H__	stack.h	/^#define __STACK_H__$/;"	d
 __dbg_h__	dbg.h	/^#define __dbg_h__$/;"	d
-_list	linkedlist.h	/^typedef struct _list {$/;"	s
+_linkedlist	linkedlist.h	/^typedef struct _linkedlist {$/;"	s
 _node	linkedlist.h	/^typedef struct _node {$/;"	s
 _queue	queue.h	/^typedef struct _queue {$/;"	s
 _stack	stack.h	/^typedef struct _stack$/;"	s
-before	linkedlist.h	/^    Node *before;$/;"	m	struct:_list
+before	linkedlist.h	/^    Node *before;$/;"	m	struct:_linkedlist
 check	dbg.h	/^#define check(/;"	d
 check_debug	dbg.h	/^#define check_debug(/;"	d
 check_mem	dbg.h	/^#define check_mem(/;"	d
 clean_errno	dbg.h	/^#define clean_errno(/;"	d
 countList	linkedlist.c	/^int countList(List *plist) {$/;"	f
-cur	linkedlist.h	/^    Node *cur;$/;"	m	struct:_list
+cur	linkedlist.h	/^    Node *cur;$/;"	m	struct:_linkedlist
 curPos	stack.h	/^    int curPos;$/;"	m	struct:_stack
 data	linkedlist.h	/^    LData data;$/;"	m	struct:_node
 debug	dbg.h	/^#define debug(/;"	d
@@ -44,7 +44,7 @@ deleteList	linkedlist.c	/^LData deleteList(List *plist) { $/;"	f
 dequeue	queue.c	/^QData dequeue(Queue *pq)$/;"	f
 enqueue	queue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
 firstList	linkedlist.c	/^int firstList(List *plist, LData *data) {$/;"	f
-head	linkedlist.h	/^    Node *head;$/;"	m	struct:_list
+head	linkedlist.h	/^    Node *head;$/;"	m	struct:_linkedlist
 head	queue.h	/^    int head;$/;"	m	struct:_queue
 initList	linkedlist.c	/^void initList(List *plist) { $/;"	f
 insertList	linkedlist.c	/^void insertList(List* plist, LData data) {$/;"	f
@@ -62,7 +62,7 @@ min	commonapi.c	/^int min(int x, int y) {$/;"	f
 next	linkedlist.h	/^    struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
 nextList	linkedlist.c	/^int nextList(List *plist, LData *data) { $/;"	f
 nextQIndex	queue.c	/^int nextQIndex(int idx)$/;"	f
-numOfData	linkedlist.h	/^    int numOfData;$/;"	m	struct:_list
+numOfData	linkedlist.h	/^    int numOfData;$/;"	m	struct:_linkedlist
 peek	stack.c	/^SData peek(Stack *ps){$/;"	f
 pop	stack.c	/^SData pop(Stack *ps)$/;"	f
 push	stack.c	/^int push(Stack *ps, SData data)$/;"	f
