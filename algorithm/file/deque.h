@@ -27,5 +27,7 @@ void rearEnqueue(Deque *pd, Data data);
 Data rearDequeue(Deque *pd);
 Data rearPeek(Deque *pd);
 
+int selectPosEnqueue(Deque *pd, Data data, int pos);
+
 #endif
 

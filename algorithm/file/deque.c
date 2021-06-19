@@ -73,3 +73,24 @@ Data rearPeek(Deque *pd) {
     return pd->tail->prev->data;
 }
 
+Node * nextNode(Node* node, int cnt) {
+    if( node == NULL) return NULL;
+    if( cnt == 0 ) return node;
+    nextNode(node->next, cnt-1);
+}
+
+int selectPosEnqueue(Deque *pd, Data data, int pos) {
+    Node *selectedNode = nextNode(pd->head->next, pos-1);
+    if( !selectedNode ) return RC_ERR;
+
+    Node *newNode = (Node *)malloc(sizeof(Node));
+    newNode->data = data;
+    newNode->next = selectedNode->next;
+    newNode->next->prev = newNode;
+    newNode->prev = selectedNode;
+    selectedNode->next = newNode;
+    return RC_NRM;
+}
+
+
+
