@@ -13,7 +13,7 @@
 #include <string.h>
 #include "dbg.h"
 #include "commonapi.h"
-#include "queue.h"
+#include "arrayqueue.h"
 #include "stack.h"
 #include "linkedlist.h"
 

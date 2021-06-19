@@ -1,5 +1,5 @@
-#ifndef __QUEUE_H__
-#define __QUEUE_H__
+#ifndef __ARRAY_QUEUE_H__
+#define __ARRAY_QUEUE_H__
 
 #include "common.h"
 
