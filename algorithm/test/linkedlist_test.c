@@ -1,5 +1,5 @@
 #include "common.h"
-#include "dbg.h"
+#include "linkedlist.h"
 
 int main(int argc, char *argv[])
 {
@@ -51,12 +51,8 @@ int main(int argc, char *argv[])
     debug("listCount after delete data 3 ! %d", countList(&list));
 
     //참조(조회)
-    if(firstList(&list, &data)) {
-        debug("firstList! %d ", data);
-        while(nextList(&list, &data)){
-            debug("nextList!! %d ", data);
-        }
-    }
+    printAllOfList(&list);
+    printReverseAllOfList(&list);
 
     return 0;
 }

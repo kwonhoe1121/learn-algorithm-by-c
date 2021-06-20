@@ -7,7 +7,7 @@
 ArrayQueue	file/arrayqueue.h	/^} ArrayQueue;$/;"	t	typeref:struct:_arrayqueue
 CFLAGS	Makefile	/^CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DDEBUG $(OPTFLAGS)$/;"	m
 Data	file/deque.h	/^typedef int Data;$/;"	t
-Data	src/liststack.h	/^typedef int Data;$/;"	t
+Data	file/liststack.h	/^typedef int Data;$/;"	t
 Deque	file/deque.h	/^} Deque;$/;"	t	typeref:struct:_deque
 FALSE	file/dbg.h	/^#define FALSE /;"	d
 FALSE	src/dbg.h	/^#define FALSE /;"	d
@@ -19,7 +19,8 @@ LinkedList	src/linkedlist.h	/^} LinkedList;$/;"	t	typeref:struct:_linkedlist
 List	file/linkedlist.h	/^typedef LinkedList List;$/;"	t
 List	src/linkedlist.h	/^typedef LinkedList List;$/;"	t
 ListQueue	file/listqueue.h	/^} ListQueue;$/;"	t	typeref:struct:_listqueue
-ListStack	src/liststack.h	/^} ListStack;$/;"	t	typeref:struct:_liststack
+ListStack	file/liststack.h	/^} ListStack;$/;"	t	typeref:struct:_liststack
+N	test/factorial_test.c	/^#define N /;"	d	file:
 Node	file/deque.h	/^} Node;$/;"	t	typeref:struct:_node
 Node	file/linkedlist.h	/^} Node;$/;"	t	typeref:struct:_node
 Node	file/listqueue.h	/^} Node;$/;"	t	typeref:struct:_node
@@ -42,8 +43,8 @@ RC_NRM	src/dbg.h	/^#define RC_NRM /;"	d
 SData	file/stack.h	/^typedef int SData;$/;"	t
 SOURCES	Makefile	/^SOURCES=$(wildcard src\/**\/*.c src\/*.c)$/;"	m
 STACK_SIZE	file/stack.h	/^#define STACK_SIZE /;"	d
+Stack	file/liststack.h	/^typedef ListStack Stack;$/;"	t
 Stack	file/stack.h	/^} Stack;$/;"	t	typeref:struct:_stack
-Stack	src/liststack.h	/^typedef ListStack Stack;$/;"	t
 TRUE	file/dbg.h	/^#define TRUE /;"	d
 TRUE	src/dbg.h	/^#define TRUE /;"	d
 __ARRAY_QUEUE_H__	file/arrayqueue.h	/^#define __ARRAY_QUEUE_H__$/;"	d
@@ -55,7 +56,7 @@ __DEQUE_H__	file/deque.h	/^#define __DEQUE_H__$/;"	d
 __LINKED_LIST_H__	file/linkedlist.h	/^#define __LINKED_LIST_H__$/;"	d
 __LINKED_LIST_H__	src/linkedlist.h	/^#define __LINKED_LIST_H__$/;"	d
 __LIST_QUEUE_H__	file/listqueue.h	/^#define __LIST_QUEUE_H__$/;"	d
-__LIST_STACK_H__	src/liststack.h	/^#define __LIST_STACK_H__$/;"	d
+__LIST_STACK_H__	file/liststack.h	/^#define __LIST_STACK_H__$/;"	d
 __STACK_H__	file/stack.h	/^#define __STACK_H__$/;"	d
 __dbg_h__	file/dbg.h	/^#define __dbg_h__$/;"	d
 __dbg_h__	src/dbg.h	/^#define __dbg_h__$/;"	d
@@ -64,12 +65,13 @@ _deque	file/deque.h	/^typedef struct _deque {$/;"	s
 _linkedlist	file/linkedlist.h	/^typedef struct _linkedlist {$/;"	s
 _linkedlist	src/linkedlist.h	/^typedef struct _linkedlist {$/;"	s
 _listqueue	file/listqueue.h	/^typedef struct _listqueue {$/;"	s
-_liststack	src/liststack.h	/^typedef struct _liststack$/;"	s
+_liststack	file/liststack.h	/^typedef struct _liststack$/;"	s
 _node	file/deque.h	/^typedef struct _node {$/;"	s
 _node	file/linkedlist.h	/^typedef struct _node {$/;"	s
 _node	file/listqueue.h	/^typedef struct _node {$/;"	s
 _node	src/linkedlist.h	/^typedef struct _node {$/;"	s
 _stack	file/stack.h	/^typedef struct _stack$/;"	s
+all_is	file/commonapi.c	/^int all_is(int arr[], int len, int num) $/;"	f
 all_is	src/commonapi.c	/^int all_is(int arr[], int len, int num) $/;"	f
 before	file/linkedlist.h	/^    Node *before;$/;"	m	struct:_linkedlist
 before	src/linkedlist.h	/^    Node *before;$/;"	m	struct:_linkedlist
@@ -81,6 +83,7 @@ check_mem	file/dbg.h	/^#define check_mem(/;"	d
 check_mem	src/dbg.h	/^#define check_mem(/;"	d
 clean_errno	file/dbg.h	/^#define clean_errno(/;"	d
 clean_errno	src/dbg.h	/^#define clean_errno(/;"	d
+countBinary1	file/commonapi.c	/^int countBinary1(const char *binary, const int len)$/;"	f
 countBinary1	src/commonapi.c	/^int countBinary1(const char *binary, const int len)$/;"	f
 countList	file/linkedlist.c	/^int countList(List *plist) {$/;"	f
 countList	src/linkedlist.c	/^int countList(List *plist) {$/;"	f
@@ -93,14 +96,18 @@ data	file/listqueue.h	/^    QData data;$/;"	m	struct:_node
 data	src/linkedlist.h	/^    LData data;$/;"	m	struct:_node
 debug	file/dbg.h	/^#define debug(/;"	d
 debug	src/dbg.h	/^#define debug(/;"	d
+decimalToBinary	file/commonapi.c	/^int decimalToBinary(char *binary, const int len,  int decimal) $/;"	f
 decimalToBinary	src/commonapi.c	/^int decimalToBinary(char *binary, const int len,  int decimal) $/;"	f
 deleteList	file/linkedlist.c	/^LData deleteList(List *plist) { $/;"	f
 deleteList	src/linkedlist.c	/^LData deleteList(List *plist) { $/;"	f
 dequeue	file/arrayqueue.c	/^QData dequeue(Queue *pq)$/;"	f
 dequeue	file/listqueue.c	/^QData dequeue(Queue *pq) {$/;"	f
+diff	file/commonapi.c	/^int diff() {$/;"	f
 diff	src/commonapi.c	/^int diff() {$/;"	f
 enqueue	file/arrayqueue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
 enqueue	file/listqueue.c	/^int enqueue(Queue *pq, QData data) {$/;"	f
+factorial	file/commonapi.c	/^int factorial(int n) $/;"	f
+factorial	src/commonapi.c	/^int factorial(int n) $/;"	f
 firstList	file/linkedlist.c	/^int firstList(List *plist, LData *data) {$/;"	f
 firstList	src/linkedlist.c	/^int firstList(List *plist, LData *data) {$/;"	f
 front	file/listqueue.h	/^    Node *front;$/;"	m	struct:_listqueue
@@ -117,15 +124,15 @@ initList	src/linkedlist.c	/^void initList(List *plist) { $/;"	f
 insertList	file/linkedlist.c	/^void insertList(List* plist, LData data) {$/;"	f
 insertList	src/linkedlist.c	/^void insertList(List* plist, LData data) {$/;"	f
 isDEmpty	file/deque.c	/^int isDEmpty(Deque *pd) { $/;"	f
+isEmpty	file/liststack.c	/^int isEmpty(Stack *ps) {$/;"	f
 isEmpty	file/stack.c	/^int isEmpty(Stack *ps){$/;"	f
-isEmpty	src/liststack.c	/^int isEmpty(Stack *ps) {$/;"	f
 isQEmpty	file/arrayqueue.c	/^int isQEmpty(Queue *pq)$/;"	f
 isQEmpty	file/listqueue.c	/^int isQEmpty(Queue *pq) {$/;"	f
 left_n_rotate	file/commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 left_n_rotate	src/commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 left_rotate	file/commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
 left_rotate	src/commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
-listStack	src/liststack.h	/^    List listStack;$/;"	m	struct:_liststack
+listStack	file/liststack.h	/^    List listStack;$/;"	m	struct:_liststack
 log_err	file/dbg.h	/^#define log_err(/;"	d
 log_err	src/dbg.h	/^#define log_err(/;"	d
 log_info	file/dbg.h	/^#define log_info(/;"	d
@@ -135,7 +142,9 @@ log_warn	src/dbg.h	/^#define log_warn(/;"	d
 main	src/main.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/commonapi_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/deque_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/factorial_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/linkedlist_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/liststack_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/queue_test.c	/^int main(int argc, char *argv[])$/;"	f
 max	file/commonapi.c	/^int max(int x, int y) {$/;"	f
 max	src/commonapi.c	/^int max(int x, int y) {$/;"	f
@@ -153,14 +162,18 @@ nextNode	file/deque.c	/^Node * nextNode(Node* node, int cnt) {$/;"	f
 nextQIndex	file/arrayqueue.c	/^int nextQIndex(int idx)$/;"	f
 numOfData	file/linkedlist.h	/^    int numOfData;$/;"	m	struct:_linkedlist
 numOfData	src/linkedlist.h	/^    int numOfData;$/;"	m	struct:_linkedlist
+peek	file/liststack.c	/^Data peek(Stack *ps) { $/;"	f
 peek	file/stack.c	/^SData peek(Stack *ps){$/;"	f
-peek	src/liststack.c	/^Data peek(Stack *ps) { $/;"	f
+pop	file/liststack.c	/^Data pop(Stack *ps) { $/;"	f
 pop	file/stack.c	/^SData pop(Stack *ps)$/;"	f
-pop	src/liststack.c	/^Data pop(Stack *ps) { $/;"	f
 prev	file/deque.h	/^    struct _node *prev;$/;"	m	struct:_node	typeref:struct:_node::_node
+printAllOfList	file/linkedlist.c	/^void printAllOfList(List *plist) {$/;"	f
+printAllOfList	src/linkedlist.c	/^void printAllOfList(List *plist) {$/;"	f
+printReverseAllOfList	file/linkedlist.c	/^void printReverseAllOfList(List *plist) {$/;"	f
+print_arr	file/commonapi.c	/^void print_arr(int arr[], int len) $/;"	f
 print_arr	src/commonapi.c	/^void print_arr(int arr[], int len) $/;"	f
+push	file/liststack.c	/^int push(Stack *ps, Data data) {$/;"	f
 push	file/stack.c	/^int push(Stack *ps, SData data)$/;"	f
-push	src/liststack.c	/^int push(Stack *ps, Data data) {$/;"	f
 qpeek	file/arrayqueue.c	/^QData qpeek(Queue *pq)$/;"	f
 qpeek	file/listqueue.c	/^QData qpeek(Queue *pq) { $/;"	f
 queArr	file/arrayqueue.h	/^    QData queArr[QUEUE_SIZE];$/;"	m	struct:_arrayqueue
@@ -177,9 +190,12 @@ right_rotate	src/commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	
 selectPosEnqueue	file/deque.c	/^int selectPosEnqueue(Deque *pd, Data data, int pos) {$/;"	f
 sentinel	file/dbg.h	/^#define sentinel(/;"	d
 sentinel	src/dbg.h	/^#define sentinel(/;"	d
+showNextNode	file/linkedlist.c	/^void showNextNode(Node *node){$/;"	f
+showNextNode	src/linkedlist.c	/^void showNextNode(Node *node){$/;"	f
+showReverseNextNode	file/linkedlist.c	/^void showReverseNextNode(Node *node){$/;"	f
 stackArr	file/stack.h	/^    SData stackArr[STACK_SIZE];$/;"	m	struct:_stack
+stackInit	file/liststack.c	/^void stackInit(Stack *ps) { $/;"	f
 stackInit	file/stack.c	/^void stackInit(Stack *ps)$/;"	f
-stackInit	src/liststack.c	/^void stackInit(Stack *ps) { $/;"	f
 swap	file/commonapi.c	/^void swap(int *x, int *y) {$/;"	f
 swap	src/commonapi.c	/^void swap(int *x, int *y) {$/;"	f
 swap_arr	file/commonapi.c	/^void swap_arr(int arr[], int i, int j) {$/;"	f

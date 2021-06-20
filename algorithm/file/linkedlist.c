@@ -54,4 +54,28 @@ int countList(List *plist) {
     return plist->numOfData;
 }
 
+void showNextNode(Node *node){
+    if(node == NULL) return;
+    printf("%d ", node->data);
+    showNextNode(node->next);
+}
+
+void showReverseNextNode(Node *node){
+    if(node == NULL) return;
+    showReverseNextNode(node->next);
+    printf("%d ", node->data);
+}
+
+void printAllOfList(List *plist) {
+    printf("[ ");
+    showNextNode( plist->head->next );
+    printf("] \n");
+}
+
+void printReverseAllOfList(List *plist) {
+    printf("[ ");
+    showReverseNextNode( plist->head->next );
+    printf("] \n");
+}
+
 

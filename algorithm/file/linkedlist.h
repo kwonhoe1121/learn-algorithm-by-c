@@ -26,5 +26,8 @@ void insertList(List* plist, LData data);
 LData deleteList(List *plist);
 int countList(List *plist);
 
+void printAllOfList(List *plist);
+void printReverseAllOfList(List *plist);
+
 #endif
 
