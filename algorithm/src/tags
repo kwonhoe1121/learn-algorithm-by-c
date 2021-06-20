@@ -13,11 +13,15 @@ TRUE	dbg.h	/^#define TRUE /;"	d
 __COMMOM_H__	common.h	/^#define __COMMOM_H__$/;"	d
 __COMMON_API_H__	commonapi.h	/^#define __COMMON_API_H__$/;"	d
 __dbg_h__	dbg.h	/^#define __dbg_h__$/;"	d
+all_is	commonapi.c	/^int all_is(int arr[], int len, int num) $/;"	f
 check	dbg.h	/^#define check(/;"	d
 check_debug	dbg.h	/^#define check_debug(/;"	d
 check_mem	dbg.h	/^#define check_mem(/;"	d
 clean_errno	dbg.h	/^#define clean_errno(/;"	d
+countBinary1	commonapi.c	/^int countBinary1(const char *binary, const int len)$/;"	f
 debug	dbg.h	/^#define debug(/;"	d
+decimalToBinary	commonapi.c	/^int decimalToBinary(char *binary, const int len,  int decimal) $/;"	f
+diff	commonapi.c	/^int diff() {$/;"	f
 left_n_rotate	commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 left_rotate	commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
 log_err	dbg.h	/^#define log_err(/;"	d
@@ -27,6 +31,7 @@ main	main.c	/^int main(int argc, char *argv[])$/;"	f
 max	commonapi.c	/^int max(int x, int y) {$/;"	f
 max_arr	commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
 min	commonapi.c	/^int min(int x, int y) {$/;"	f
+print_arr	commonapi.c	/^void print_arr(int arr[], int len) $/;"	f
 right_n_rotate	commonapi.c	/^void right_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 right_rotate	commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	f
 sentinel	dbg.h	/^#define sentinel(/;"	d
