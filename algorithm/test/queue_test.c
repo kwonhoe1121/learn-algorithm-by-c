@@ -1,9 +1,11 @@
 #include "common.h"
-#include "dbg.h"
+#include "listqueue.h"
+
 
 int main(int argc, char *argv[])
 {
     Queue queue;
+    int queueCnt = 0;
 
     queueInit(&queue);
 
@@ -34,9 +36,16 @@ int main(int argc, char *argv[])
     debug(" Dequeue %d ", dequeue(&queue));
     debug(" Dequeue %d ", dequeue(&queue));
     debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
-    debug(" Dequeue %d ", dequeue(&queue));
+
+    debug("=========================");
+    
+//    debug("How much node generate?");
+//    while(1)
+//    {
+//        enqueue(&queue, 1);
+//        debug("queueCnt: %d", ++queueCnt);
+//    }
+//    debug("=========================");
 
     return 0;
 }

@@ -1,52 +1,52 @@
 #include "common.h"
-#include "dbg.h"
-#include "deque.h"
+#include "listqueue.h"
+
 
 int main(int argc, char *argv[])
 {
-    Deque deque;
+    Queue queue;
+    int queueCnt = 0;
 
-    initDeque(&deque);
+    queueInit(&queue);
 
-    frontEnqueue(&deque, 1);
-    frontEnqueue(&deque, 2);
-    frontEnqueue(&deque, 3);
+    enqueue(&queue, 1);
+    enqueue(&queue, 2);
+    enqueue(&queue, 3);
+    enqueue(&queue, 4);
+    enqueue(&queue, 5);
 
-    rearEnqueue(&deque, 4);
-    rearEnqueue(&deque, 5);
+    debug(" Dequeue %d ", dequeue(&queue));
+    debug(" Dequeue %d ", dequeue(&queue));
+    debug(" Dequeue %d ", dequeue(&queue));
+    debug(" Dequeue %d ", dequeue(&queue));
 
-    debug("frontDequeue!! expected [3, 2, 1, 4, 5]");
-    debug("frontPeek!! %d", frontPeek(&deque));
-    while( !isDEmpty(&deque) ) {
-        debug("%d", frontDequeue(&deque));
-    }
+    enqueue(&queue, 6);
+    enqueue(&queue, 7);
+    enqueue(&queue, 8);
+    enqueue(&queue, 9);
 
-    frontEnqueue(&deque, 1);
-    frontEnqueue(&deque, 2);
-    frontEnqueue(&deque, 3);
+    debug(" Dequeue %d ", dequeue(&queue));
 
-    rearEnqueue(&deque, 4);
-    rearEnqueue(&deque, 5);
+    enqueue(&queue, 10);
 
-    debug("rearDequeue!! expected [5, 4, 1, 2, 3]");
-    debug("rearPeek!! %d", rearPeek(&deque));
-    while( !isDEmpty(&deque) ) {
-        debug("%d", rearDequeue(&deque));
-    }
+    debug("=========================");
 
-    frontEnqueue(&deque, 1);
-    frontEnqueue(&deque, 2);
-    frontEnqueue(&deque, 3);
+    debug(" Dequeue %d ", dequeue(&queue));
+    debug(" Dequeue %d ", dequeue(&queue));
+    debug(" Dequeue %d ", dequeue(&queue));
+    debug(" Dequeue %d ", dequeue(&queue));
+    debug(" Dequeue %d ", dequeue(&queue));
 
-    rearEnqueue(&deque, 4);
-    rearEnqueue(&deque, 5);
-
-    selectPosEnqueue(&deque, 10, 2);
-    debug("selectPosEnqueue 2 pos add 10!! expected [3, 10, 2, 1, 4, 5]");
-    while( !isDEmpty(&deque) ) {
-        debug("%d", frontDequeue(&deque));
-    }
+    debug("=========================");
     
+//    debug("How much node generate?");
+//    while(1)
+//    {
+//        enqueue(&queue, 1);
+//        debug("queueCnt: %d", ++queueCnt);
+//    }
+//    debug("=========================");
+
     return 0;
 }
 
