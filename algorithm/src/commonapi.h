@@ -16,6 +16,7 @@ void print_arr(int arr[], int len);
 int all_is(int arr[], int len, int num);
 int decimalToBinary(char *binary, const int len,  int decimal);
 int countBinary1(const char *binary, const int len);
+int factorial(int n);
 
 #endif
 
