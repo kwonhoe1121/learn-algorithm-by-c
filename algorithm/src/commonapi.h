@@ -17,6 +17,8 @@ int all_is(int arr[], int len, int num);
 int decimalToBinary(char *binary, const int len,  int decimal);
 int countBinary1(const char *binary, const int len);
 int factorial(int n);
+long long choose(int n, int r);
+long long cached_choose(int n, int r);
 
 #endif
 

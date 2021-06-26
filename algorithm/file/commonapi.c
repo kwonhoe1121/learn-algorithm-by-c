@@ -1,5 +1,7 @@
 #include "commonapi.h"
 
+#define CACHE_LEN 200
+
 int max(int x, int y) {
     return x > y ? x : y;
 }
@@ -118,6 +120,26 @@ int factorial(int n)
 {
     if(n == 1) return 1;
     return n * factorial(n-1);
+}
+
+long long choose(int n, int r)
+{
+    long long sum;
+    if( r == 0 ) return 1;
+    if( n == r ) return 1;
+    debug("n: %d, r: %d", n, r);
+    return choose(n-1, r-1) + choose(n-1, r);
+}
+
+long long cached_choose(int n, int r)
+{
+    static long long cached[CACHE_LEN][CACHE_LEN];
+
+    if( cached[n][r] > 0 ) return cached[n][r];
+    if( r == 0 ) return 1;
+    if( n == r ) return 1;
+
+    return cached[n][r] = cached_choose(n-1, r-1) + cached_choose(n-1, r);
 }
 
 
