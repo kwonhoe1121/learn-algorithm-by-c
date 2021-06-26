@@ -142,4 +142,19 @@ long long cached_choose(int n, int r)
     return cached[n][r] = cached_choose(n-1, r-1) + cached_choose(n-1, r);
 }
 
+long long fibonacci(int n)
+{
+    if(n == 1 || n == 2) return 1;
+    debug("n: %d", n);
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+long long cached_fibonacci(int n)
+{
+    static long long cached_fibo_val[CACHE_LEN];
+    if(cached_fibo_val[n] > 0) return cached_fibo_val[n];
+    if(n == 1 || n == 2) return cached_fibo_val[n] = 1;
+    debug("n: %d", n);
+    return cached_fibo_val[n] = cached_fibonacci(n-1) + cached_fibonacci(n-2);
+}
 

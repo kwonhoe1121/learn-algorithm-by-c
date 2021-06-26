@@ -9,6 +9,7 @@ AVL_LFT_HEAVY	examples/include/bistree.h	/^#define            AVL_LFT_HEAVY /;"	
 AVL_RGT_HEAVY	examples/include/bistree.h	/^#define            AVL_RGT_HEAVY /;"	d
 AdjList	examples/include/graph.h	/^} AdjList;$/;"	t	typeref:struct:AdjList_
 AdjList_	examples/include/graph.h	/^typedef struct AdjList_ {$/;"	s
+ArrayQueue	algorithm/file/arrayqueue.h	/^} ArrayQueue;$/;"	t	typeref:struct:_arrayqueue
 AvlNode	examples/include/bistree.h	/^} AvlNode;$/;"	t	typeref:struct:AvlNode_
 AvlNode_	examples/include/bistree.h	/^typedef struct AvlNode_ {$/;"	s
 BFS_H	examples/include/bfs.h	/^#define BFS_H$/;"	d
@@ -111,6 +112,9 @@ DList	examples/include/dlist.h	/^} DList;$/;"	t	typeref:struct:DList_
 DListElmt	examples/include/dlist.h	/^} DListElmt;$/;"	t	typeref:struct:DListElmt_
 DListElmt_	examples/include/dlist.h	/^typedef struct DListElmt_ {$/;"	s
 DList_	examples/include/dlist.h	/^typedef struct DList_ {$/;"	s
+Data	algorithm/file/deque.h	/^typedef int Data;$/;"	t
+Data	algorithm/file/liststack.h	/^typedef int Data;$/;"	t
+Deque	algorithm/file/deque.h	/^} Deque;$/;"	t	typeref:struct:_deque
 DesEorD	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	t	typeref:enum:DesEorD_	file:
 DesEorD_	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	g	file:
 DesExpansion	examples/source/des.c	/^static const int DesExpansion[48] = {$/;"	v	file:
@@ -170,6 +174,7 @@ Event_	examples/include/event.h	/^typedef struct Event_ {$/;"	s
 FACTOR_H	examples/include/factor.h	/^#define FACTOR_H$/;"	d
 FACTTAIL_H	examples/include/facttail.h	/^#define FACTTAIL_H$/;"	d
 FACT_H	examples/include/fact.h	/^#define FACT_H$/;"	d
+FALSE	algorithm/file/dbg.h	/^#define FALSE /;"	d
 FALSE	algorithm/src/dbg.h	/^#define FALSE /;"	d
 FRAMES_H	examples/include/frames.h	/^#define FRAMES_H$/;"	d
 GEODIST_H	examples/include/geodist.h	/^#define GEODIST_H$/;"	d
@@ -221,6 +226,7 @@ INCDRS	examples/examples/sort/sort.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;
 INCDRS	examples/examples/stack/stack.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
 KSet	examples/include/cover.h	/^} KSet;$/;"	t	typeref:struct:KSet_
 KSet_	examples/include/cover.h	/^typedef struct KSet_ {$/;"	s
+LData	algorithm/file/linkedlist.h	/^typedef int LData;$/;"	t
 LEX_H	examples/include/lex.h	/^#define LEX_H$/;"	d
 LFLAGS	examples/examples/bistree/bistree.mak	/^LFLAGS =$/;"	m
 LFLAGS	examples/examples/bit/bit.mak	/^LFLAGS =$/;"	m
@@ -360,9 +366,13 @@ LZ77_SYMBOL_BITS	examples/include/compress.h	/^#define            LZ77_SYMBOL_BI
 LZ77_TYPE_BITS	examples/include/compress.h	/^#define            LZ77_TYPE_BITS /;"	d
 LZ77_WINDOW_SIZE	examples/include/compress.h	/^#define            LZ77_WINDOW_SIZE /;"	d
 LZ77_WINOFF_BITS	examples/include/compress.h	/^#define            LZ77_WINOFF_BITS /;"	d
+LinkedList	algorithm/file/linkedlist.h	/^} LinkedList;$/;"	t	typeref:struct:_linkedlist
+List	algorithm/file/linkedlist.h	/^typedef LinkedList List;$/;"	t
 List	examples/include/list.h	/^} List;$/;"	t	typeref:struct:List_
 ListElmt	examples/include/list.h	/^} ListElmt;$/;"	t	typeref:struct:ListElmt_
 ListElmt_	examples/include/list.h	/^typedef struct ListElmt_ {$/;"	s
+ListQueue	algorithm/file/listqueue.h	/^} ListQueue;$/;"	t	typeref:struct:_listqueue
+ListStack	algorithm/file/liststack.h	/^} ListStack;$/;"	t	typeref:struct:_liststack
 List_	examples/include/list.h	/^typedef struct List_ {$/;"	s
 MAKNAM	examples/examples/bistree/bistree.mak	/^MAKNAM = bistree.mak$/;"	m
 MAKNAM	examples/examples/bit/bit.mak	/^MAKNAM = bit.mak$/;"	m
@@ -405,6 +415,9 @@ MstTestV	examples/examples/graphalg/ex-1.c	/^static char MstTestV[MSTVCT][STRSIZ
 MstVertex	examples/include/graphalg.h	/^} MstVertex;$/;"	t	typeref:struct:MstVertex_
 MstVertex_	examples/include/graphalg.h	/^typedef struct MstVertex_ {$/;"	s
 NUMMETHS_H	examples/include/nummeths.h	/^#define NUMMETHS_H$/;"	d
+Node	algorithm/file/deque.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	algorithm/file/linkedlist.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	algorithm/file/listqueue.h	/^} Node;$/;"	t	typeref:struct:_node
 OBJECTS	algorithm/Makefile	/^OBJECTS=$(patsubst %.c,%.o,$(SOURCES))$/;"	m
 OBJFLS	examples/examples/bistree/bistree.mak	/^OBJFLS = ex-1.o\\$/;"	m
 OBJFLS	examples/examples/bit/bit.mak	/^OBJFLS = ex-1.o\\$/;"	m
@@ -466,22 +479,28 @@ PthTestE	examples/examples/graphalg/ex-1.c	/^static EdgeData PthTestE[PTHECT] = 
 PthTestE	examples/examples/graphalg/ex-2.c	/^static EdgeData PthTestE[PTHECT] = {$/;"	v	file:
 PthTestV	examples/examples/graphalg/ex-1.c	/^static char PthTestV[PTHVCT][STRSIZ] = {$/;"	v	file:
 PthTestV	examples/examples/graphalg/ex-2.c	/^static char PthTestV[PTHVCT][STRSIZ] = {$/;"	v	file:
-QData	algorithm/src/queue.h	/^typedef int QData;$/;"	t
+QData	algorithm/file/arrayqueue.h	/^typedef int QData;$/;"	t
+QData	algorithm/file/listqueue.h	/^typedef int QData;$/;"	t
 QUEUE_H	examples/include/queue.h	/^#define QUEUE_H$/;"	d
-QUEUE_SIZE	algorithm/src/queue.h	/^#define QUEUE_SIZE /;"	d
-Queue	algorithm/src/queue.h	/^} Queue;$/;"	t	typeref:struct:_queue
+QUEUE_SIZE	algorithm/file/arrayqueue.h	/^#define QUEUE_SIZE /;"	d
+Queue	algorithm/file/arrayqueue.h	/^typedef ArrayQueue Queue;$/;"	t
+Queue	algorithm/file/listqueue.h	/^typedef ListQueue Queue;$/;"	t
 Queue	examples/include/queue.h	/^typedef List Queue;$/;"	t
 RADTODEG	examples/include/geometry.h	/^#define            RADTODEG(/;"	d
+RC_DUP	algorithm/file/dbg.h	/^#define RC_DUP /;"	d
 RC_DUP	algorithm/src/dbg.h	/^#define RC_DUP /;"	d
+RC_ERR	algorithm/file/dbg.h	/^#define RC_ERR /;"	d
 RC_ERR	algorithm/src/dbg.h	/^#define RC_ERR /;"	d
+RC_NFD	algorithm/file/dbg.h	/^#define RC_NFD /;"	d
 RC_NFD	algorithm/src/dbg.h	/^#define RC_NFD /;"	d
+RC_NRM	algorithm/file/dbg.h	/^#define RC_NRM /;"	d
 RC_NRM	algorithm/src/dbg.h	/^#define RC_NRM /;"	d
 ROUTE_H	examples/include/route.h	/^#define ROUTE_H$/;"	d
 RsaPriKey	examples/include/encrypt.h	/^} RsaPriKey;$/;"	t	typeref:struct:RsaPriKey_
 RsaPriKey_	examples/include/encrypt.h	/^typedef struct RsaPriKey_ {$/;"	s
 RsaPubKey	examples/include/encrypt.h	/^} RsaPubKey;$/;"	t	typeref:struct:RsaPubKey_
 RsaPubKey_	examples/include/encrypt.h	/^typedef struct RsaPubKey_ {$/;"	s
-SData	algorithm/src/stack.h	/^typedef int SData;$/;"	t
+SData	algorithm/file/stack.h	/^typedef int SData;$/;"	t
 SEARCH_H	examples/include/search.h	/^#define SEARCH_H$/;"	d
 SET_H	examples/include/set.h	/^#define SET_H$/;"	d
 SIZE	examples/examples/nummeths/ex-1.c	/^#define            SIZE /;"	d	file:
@@ -525,7 +544,7 @@ SRCFLS	examples/examples/sort/directls.mak	/^SRCFLS = ex-2.c\\$/;"	m
 SRCFLS	examples/examples/sort/sort.mak	/^SRCFLS = ex-1.c\\$/;"	m
 SRCFLS	examples/examples/stack/stack.mak	/^SRCFLS = ex-1.c\\$/;"	m
 STACK_H	examples/include/stack.h	/^#define STACK_H$/;"	d
-STACK_SIZE	algorithm/src/stack.h	/^#define STACK_SIZE /;"	d
+STACK_SIZE	algorithm/file/stack.h	/^#define STACK_SIZE /;"	d
 STRSIZ	examples/examples/bistree/ex-1.c	/^#define            STRSIZ /;"	d	file:
 STRSIZ	examples/examples/graph/ex-1.c	/^#define            STRSIZ /;"	d	file:
 STRSIZ	examples/examples/graph/ex-2.c	/^#define            STRSIZ /;"	d	file:
@@ -536,7 +555,8 @@ STRSIZ	examples/examples/search/ex-1.c	/^#define            STRSIZ /;"	d	file:
 STRSIZ	examples/examples/sort/ex-1.c	/^#define            STRSIZ /;"	d	file:
 SYMBOL_H	examples/include/symbol.h	/^#define SYMBOL_H$/;"	d
 Set	examples/include/set.h	/^typedef List Set;$/;"	t
-Stack	algorithm/src/stack.h	/^} Stack;$/;"	t	typeref:struct:_stack
+Stack	algorithm/file/liststack.h	/^typedef ListStack Stack;$/;"	t
+Stack	algorithm/file/stack.h	/^} Stack;$/;"	t	typeref:struct:_stack
 Stack	examples/include/stack.h	/^typedef List Stack;$/;"	t
 Symbol	examples/include/symbol.h	/^} Symbol;$/;"	t	typeref:struct:Symbol_
 Symbol_	examples/include/symbol.h	/^typedef struct Symbol_ {$/;"	s
@@ -544,6 +564,7 @@ TBLSIZ	examples/examples/chtbl/ex-1.c	/^#define            TBLSIZ /;"	d	file:
 TBLSIZ	examples/examples/ohtbl/ex-1.c	/^#define            TBLSIZ /;"	d	file:
 TRANSFER_H	examples/include/transfer.h	/^#define TRANSFER_H$/;"	d
 TRAVERSE_H	examples/include/traverse.h	/^#define TRAVERSE_H$/;"	d
+TRUE	algorithm/file/dbg.h	/^#define TRUE /;"	d
 TRUE	algorithm/src/dbg.h	/^#define TRUE /;"	d
 TSPVCT	examples/examples/graphalg/ex-1.c	/^#define            TSPVCT /;"	d	file:
 TXTSIZ	examples/examples/encrypt/ex-2.c	/^#define            TXTSIZ /;"	d	file:
@@ -558,19 +579,36 @@ Words	examples/examples/bistree/ex-1.c	/^   dip} Words;$/;"	t	typeref:enum:Words
 Words	examples/examples/search/ex-1.c	/^   dip} Words;$/;"	t	typeref:enum:Words_	file:
 Words_	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	g	file:
 Words_	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	g	file:
+__ARRAY_QUEUE_H__	algorithm/file/arrayqueue.h	/^#define __ARRAY_QUEUE_H__$/;"	d
+__COMMOM_H__	algorithm/file/common.h	/^#define __COMMOM_H__$/;"	d
 __COMMOM_H__	algorithm/src/common.h	/^#define __COMMOM_H__$/;"	d
+__COMMON_API_H__	algorithm/file/commonapi.h	/^#define __COMMON_API_H__$/;"	d
 __COMMON_API_H__	algorithm/src/commonapi.h	/^#define __COMMON_API_H__$/;"	d
-__QUEUE_H__	algorithm/src/queue.h	/^#define __QUEUE_H__$/;"	d
-__STACK_H__	algorithm/src/stack.h	/^#define __STACK_H__$/;"	d
+__DEQUE_H__	algorithm/file/deque.h	/^#define __DEQUE_H__$/;"	d
+__LINKED_LIST_H__	algorithm/file/linkedlist.h	/^#define __LINKED_LIST_H__$/;"	d
+__LIST_QUEUE_H__	algorithm/file/listqueue.h	/^#define __LIST_QUEUE_H__$/;"	d
+__LIST_STACK_H__	algorithm/file/liststack.h	/^#define __LIST_STACK_H__$/;"	d
+__STACK_H__	algorithm/file/stack.h	/^#define __STACK_H__$/;"	d
+__dbg_h__	algorithm/file/dbg.h	/^#define __dbg_h__$/;"	d
 __dbg_h__	algorithm/src/dbg.h	/^#define __dbg_h__$/;"	d
-_queue	algorithm/src/queue.h	/^typedef struct _queue {$/;"	s
-_stack	algorithm/src/stack.h	/^typedef struct _stack$/;"	s
+_arrayqueue	algorithm/file/arrayqueue.h	/^typedef struct _arrayqueue {$/;"	s
+_deque	algorithm/file/deque.h	/^typedef struct _deque {$/;"	s
+_linkedlist	algorithm/file/linkedlist.h	/^typedef struct _linkedlist {$/;"	s
+_listqueue	algorithm/file/listqueue.h	/^typedef struct _listqueue {$/;"	s
+_liststack	algorithm/file/liststack.h	/^typedef struct _liststack$/;"	s
+_node	algorithm/file/deque.h	/^typedef struct _node {$/;"	s
+_node	algorithm/file/linkedlist.h	/^typedef struct _node {$/;"	s
+_node	algorithm/file/listqueue.h	/^typedef struct _node {$/;"	s
+_stack	algorithm/file/stack.h	/^typedef struct _stack$/;"	s
 adjacent	examples/include/graph.h	/^Set                adjacent;$/;"	m	struct:AdjList_
 adjlists	examples/include/graph.h	/^List               adjlists;$/;"	m	struct:Graph_
+all_is	algorithm/file/commonapi.c	/^int all_is(int arr[], int len, int num) $/;"	f
+all_is	algorithm/src/commonapi.c	/^int all_is(int arr[], int len, int num) $/;"	f
 alloc_frame	examples/source/frames.c	/^int alloc_frame(List *frames) {$/;"	f
 arclen	examples/source/arclen.c	/^void arclen(SPoint p1, SPoint p2, double *length) {$/;"	f
 bat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
 bat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+before	algorithm/file/linkedlist.h	/^    Node *before;$/;"	m	struct:_linkedlist
 bfs	examples/source/bfs.c	/^int bfs(Graph *graph, BfsVertex *start, List *hops) {$/;"	f
 bisearch	examples/source/bisearch.c	/^int bisearch(void *sorted, const void *target, int size, int esize, int$/;"	f
 bistree_destroy	examples/source/bistree.c	/^void bistree_destroy(BisTree *tree) {$/;"	f
@@ -605,8 +643,11 @@ cat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, 
 cat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
 cbc_decipher	examples/source/cbc.c	/^void cbc_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f
 cbc_encipher	examples/source/cbc.c	/^void cbc_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	f
+check	algorithm/file/dbg.h	/^#define check(/;"	d
 check	algorithm/src/dbg.h	/^#define check(/;"	d
+check_debug	algorithm/file/dbg.h	/^#define check_debug(/;"	d
 check_debug	algorithm/src/dbg.h	/^#define check_debug(/;"	d
+check_mem	algorithm/file/dbg.h	/^#define check_mem(/;"	d
 check_mem	algorithm/src/dbg.h	/^#define check_mem(/;"	d
 chtbl_destroy	examples/source/chtbl.c	/^void chtbl_destroy(CHTbl *htbl) {$/;"	f
 chtbl_init	examples/source/chtbl.c	/^int chtbl_init(CHTbl *htbl, int buckets, int (*h)(const void *key), int$/;"	f
@@ -614,6 +655,7 @@ chtbl_insert	examples/source/chtbl.c	/^int chtbl_insert(CHTbl *htbl, const void 
 chtbl_lookup	examples/source/chtbl.c	/^int chtbl_lookup(const CHTbl *htbl, void **data) {$/;"	f
 chtbl_remove	examples/source/chtbl.c	/^int chtbl_remove(CHTbl *htbl, void **data) {$/;"	f
 chtbl_size	examples/include/chtbl.h	/^#define chtbl_size(/;"	d
+clean_errno	algorithm/file/dbg.h	/^#define clean_errno(/;"	d
 clean_errno	algorithm/src/dbg.h	/^#define clean_errno(/;"	d
 clist_data	examples/include/clist.h	/^#define clist_data(/;"	d
 clist_destroy	examples/source/clist.c	/^void clist_destroy(CList *list) {$/;"	f
@@ -643,12 +685,19 @@ compare_str	examples/examples/search/ex-2.c	/^static int compare_str(const void 
 compare_str	examples/examples/sort/ex-1.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:
 compare_str	examples/source/spell.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:
 compare_win	examples/source/lz77.c	/^static int compare_win(const unsigned char *window, const unsigned char$/;"	f	file:
+countBinary1	algorithm/file/commonapi.c	/^int countBinary1(const char *binary, const int len)$/;"	f
+countBinary1	algorithm/src/commonapi.c	/^int countBinary1(const char *binary, const int len)$/;"	f
+countList	algorithm/file/linkedlist.c	/^int countList(List *plist) {$/;"	f
 cover	examples/source/cover.c	/^int cover(Set *members, Set *subsets, Set *covering) {$/;"	f
 ctsort	examples/source/ctsort.c	/^int ctsort(int *data, int size, int k) {$/;"	f
-curPos	algorithm/src/stack.h	/^    int curPos;$/;"	m	struct:_stack
+cur	algorithm/file/linkedlist.h	/^    Node *cur;$/;"	m	struct:_linkedlist
+curPos	algorithm/file/stack.h	/^    int curPos;$/;"	m	struct:_stack
 cvxhull	examples/source/cvxhull.c	/^int cvxhull(const List *P, List *polygon) {$/;"	f
 d	examples/include/encrypt.h	/^Huge               d;$/;"	m	struct:RsaPriKey_
 d	examples/include/graphalg.h	/^double             d;$/;"	m	struct:PathVertex_
+data	algorithm/file/deque.h	/^    Data data;$/;"	m	struct:_node
+data	algorithm/file/linkedlist.h	/^    LData data;$/;"	m	struct:_node
+data	algorithm/file/listqueue.h	/^    QData data;$/;"	m	struct:_node
 data	examples/include/bfs.h	/^void               *data;$/;"	m	struct:BfsVertex_
 data	examples/include/bistree.h	/^void               *data;$/;"	m	struct:AvlNode_
 data	examples/include/bitree.h	/^void               *data;$/;"	m	struct:BiTreeNode_
@@ -659,9 +708,14 @@ data	examples/include/graphalg.h	/^void               *data;$/;"	m	struct:MstVer
 data	examples/include/graphalg.h	/^void               *data;$/;"	m	struct:PathVertex_
 data	examples/include/graphalg.h	/^void               *data;$/;"	m	struct:TspVertex_
 data	examples/include/list.h	/^void               *data;$/;"	m	struct:ListElmt_
+debug	algorithm/file/dbg.h	/^#define debug(/;"	d
 debug	algorithm/src/dbg.h	/^#define debug(/;"	d
+decimalToBinary	algorithm/file/commonapi.c	/^int decimalToBinary(char *binary, const int len,  int decimal) $/;"	f
+decimalToBinary	algorithm/src/commonapi.c	/^int decimalToBinary(char *binary, const int len,  int decimal) $/;"	f
 decipher	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	e	enum:DesEorD_	file:
-dequeue	algorithm/src/queue.c	/^QData dequeue(Queue *pq)$/;"	f
+deleteList	algorithm/file/linkedlist.c	/^LData deleteList(List *plist) { $/;"	f
+dequeue	algorithm/file/arrayqueue.c	/^QData dequeue(Queue *pq)$/;"	f
+dequeue	algorithm/file/listqueue.c	/^QData dequeue(Queue *pq) {$/;"	f
 des_decipher	examples/source/des.c	/^void des_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f
 des_encipher	examples/source/des.c	/^void des_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	f
 des_main	examples/source/des.c	/^static int des_main(const unsigned char *source, unsigned char *target, const$/;"	f	file:
@@ -680,6 +734,8 @@ destroy_task	examples/examples/graph/ex-3.c	/^static void destroy_task(void *tas
 destroy_tree	examples/source/huffman.c	/^static void destroy_tree(void *tree) {$/;"	f	file:
 dfs	examples/source/dfs.c	/^int dfs(Graph *graph, List *ordered) {$/;"	f
 dfs_main	examples/source/dfs.c	/^static int dfs_main(Graph *graph, AdjList *adjlist, List *ordered) {$/;"	f	file:
+diff	algorithm/file/commonapi.c	/^int diff() {$/;"	f
+diff	algorithm/src/commonapi.c	/^int diff() {$/;"	f
 digit	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
 dip	examples/examples/bistree/ex-1.c	/^   dip} Words;$/;"	e	enum:Words_	file:
 dip	examples/examples/search/ex-1.c	/^   dip} Words;$/;"	e	enum:Words_	file:
@@ -700,15 +756,22 @@ dlist_tail	examples/include/dlist.h	/^#define dlist_tail(/;"	d
 e	examples/include/encrypt.h	/^Huge               e;$/;"	m	struct:RsaPubKey_
 ecount	examples/include/graph.h	/^int                ecount;$/;"	m	struct:Graph_
 encipher	examples/source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	e	enum:DesEorD_	file:
-enqueue	algorithm/src/queue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
+enqueue	algorithm/file/arrayqueue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
+enqueue	algorithm/file/listqueue.c	/^int enqueue(Queue *pq, QData data) {$/;"	f
 error	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
 f	examples/examples/nummeths/ex-1.c	/^static double f(double x) {$/;"	f	file:
 fact	examples/source/fact.c	/^int fact(int n) {$/;"	f
 factor	examples/include/bistree.h	/^int                factor;$/;"	m	struct:AvlNode_
 factor	examples/source/factor.c	/^void factor(int number, int n, int j) {$/;"	f
+factorial	algorithm/src/commonapi.c	/^int factorial(int n) $/;"	f
 facttail	examples/source/facttail.c	/^int facttail(int n, int a) {$/;"	f
+firstList	algorithm/file/linkedlist.c	/^int firstList(List *plist, LData *data) {$/;"	f
 free_frame	examples/source/frames.c	/^int free_frame(List *frames, int frame_number) {$/;"	f
 freq	examples/include/compress.h	/^int                freq;$/;"	m	struct:HuffNode_
+front	algorithm/file/listqueue.h	/^    Node *front;$/;"	m	struct:_listqueue
+frontDequeue	algorithm/file/deque.c	/^Data frontDequeue(Deque *pd) {$/;"	f
+frontEnqueue	algorithm/file/deque.c	/^void frontEnqueue(Deque *pd, Data data) { $/;"	f
+frontPeek	algorithm/file/deque.c	/^Data frontPeek(Deque *pd) { $/;"	f
 g	examples/examples/nummeths/ex-1.c	/^static double g(double x) {$/;"	f	file:
 geodist	examples/source/geodist.c	/^int geodist(double lat1, double lon1, double lat2, double lon2, double *d) {$/;"	f
 get_parcel	examples/source/parcels.c	/^int get_parcel(PQueue *parcels, Parcel *parcel) {$/;"	f
@@ -733,7 +796,9 @@ h_char	examples/examples/chtbl/ex-1.c	/^static int h_char(const void *key) {$/;"
 hashpjw	examples/source/hashpjw.c	/^int hashpjw(const void *key) {$/;"	f
 hat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
 hat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
-head	algorithm/src/queue.h	/^    int head;$/;"	m	struct:_queue
+head	algorithm/file/arrayqueue.h	/^    int head;$/;"	m	struct:_arrayqueue
+head	algorithm/file/deque.h	/^    Node *head;$/;"	m	struct:_deque
+head	algorithm/file/linkedlist.h	/^    Node *head;$/;"	m	struct:_linkedlist
 head	examples/include/clist.h	/^CListElmt          *head;$/;"	m	struct:CList_
 head	examples/include/dlist.h	/^DListElmt          *head;$/;"	m	struct:DList_
 head	examples/include/list.h	/^ListElmt           *head;$/;"	m	struct:List_
@@ -752,22 +817,31 @@ hop	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, t
 hops	examples/include/bfs.h	/^int                hops;$/;"	m	struct:BfsVertex_
 huffman_compress	examples/source/huffman.c	/^int huffman_compress(const unsigned char *original, unsigned char$/;"	f
 huffman_uncompress	examples/source/huffman.c	/^int huffman_uncompress(const unsigned char *compressed, unsigned char$/;"	f
+initDeque	algorithm/file/deque.c	/^void initDeque(Deque *pd) {$/;"	f
+initList	algorithm/file/linkedlist.c	/^void initList(List *plist) { $/;"	f
 inorder	examples/source/traverse.c	/^int inorder(const BiTreeNode *node, List *list) {$/;"	f
 insert	examples/source/bistree.c	/^static int insert(BisTree *tree, BiTreeNode **node, const void *data, int$/;"	f	file:
+insertList	algorithm/file/linkedlist.c	/^void insertList(List* plist, LData data) {$/;"	f
 insert_int	examples/examples/bitree/ex-1.c	/^static int insert_int(BiTree *tree, int i) {$/;"	f	file:
 interpol	examples/source/interpol.c	/^int interpol(const double *x, const double *fx, int n, double *z, double *pz,$/;"	f
-isEmpty	algorithm/src/stack.c	/^int isEmpty(Stack *ps){$/;"	f
-isQEmpty	algorithm/src/queue.c	/^int isQEmpty(Queue *pq)$/;"	f
+isDEmpty	algorithm/file/deque.c	/^int isDEmpty(Deque *pd) { $/;"	f
+isEmpty	algorithm/file/liststack.c	/^int isEmpty(Stack *ps) {$/;"	f
+isEmpty	algorithm/file/stack.c	/^int isEmpty(Stack *ps){$/;"	f
+isQEmpty	algorithm/file/arrayqueue.c	/^int isQEmpty(Queue *pq)$/;"	f
+isQEmpty	algorithm/file/listqueue.c	/^int isQEmpty(Queue *pq) {$/;"	f
 issort	examples/source/issort.c	/^int issort(void *data, int size, int esize, int (*compare)(const void *key1,$/;"	f
 key	examples/include/cover.h	/^void               *key;$/;"	m	struct:KSet_
 key	examples/include/graphalg.h	/^double             key;$/;"	m	struct:MstVertex_
 left	examples/include/bitree.h	/^struct BiTreeNode_ *left;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_
+left_n_rotate	algorithm/file/commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 left_n_rotate	algorithm/src/commonapi.c	/^void left_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+left_rotate	algorithm/file/commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
 left_rotate	algorithm/src/commonapi.c	/^void left_rotate(int arr[], int s, int t) {$/;"	f
 lex	examples/source/lex.c	/^Token lex(const char *istream, CHTbl *symtbl) {$/;"	f
 lexeme	examples/include/symbol.h	/^char               *lexeme;$/;"	m	struct:Symbol_
 lexit	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
 lint	examples/source/lint.c	/^int lint(Point p1, Point p2, Point p3, Point p4) {$/;"	f
+listStack	algorithm/file/liststack.h	/^    List listStack;$/;"	m	struct:_liststack
 list_data	examples/include/list.h	/^#define list_data(/;"	d
 list_destroy	examples/source/list.c	/^void list_destroy(List *list) {$/;"	f
 list_head	examples/include/list.h	/^#define list_head(/;"	d
@@ -779,14 +853,22 @@ list_next	examples/include/list.h	/^#define list_next(/;"	d
 list_rem_next	examples/source/list.c	/^int list_rem_next(List *list, ListElmt *element, void **data) {$/;"	f
 list_size	examples/include/list.h	/^#define list_size(/;"	d
 list_tail	examples/include/list.h	/^#define list_tail(/;"	d
+log_err	algorithm/file/dbg.h	/^#define log_err(/;"	d
 log_err	algorithm/src/dbg.h	/^#define log_err(/;"	d
+log_info	algorithm/file/dbg.h	/^#define log_info(/;"	d
 log_info	algorithm/src/dbg.h	/^#define log_info(/;"	d
+log_warn	algorithm/file/dbg.h	/^#define log_warn(/;"	d
 log_warn	algorithm/src/dbg.h	/^#define log_warn(/;"	d
 lookup	examples/source/bistree.c	/^static int lookup(BisTree *tree, BiTreeNode *node, void **data) {$/;"	f	file:
 lsqe	examples/source/lsqe.c	/^void lsqe(const double *x, const double *y, int n, double *b1, double *b0) {$/;"	f
 lz77_compress	examples/source/lz77.c	/^int lz77_compress(const unsigned char *original, unsigned char **compressed,$/;"	f
 lz77_uncompress	examples/source/lz77.c	/^int lz77_uncompress(const unsigned char *compressed, unsigned char$/;"	f
 main	algorithm/src/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/commonapi_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/deque_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/linkedlist_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/liststack_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/queue_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	examples/examples/bistree/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
 main	examples/examples/bit/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
 main	examples/examples/bitree/ex-1.c	/^int main(int argc, char **argv) {$/;"	f
@@ -837,10 +919,13 @@ match_skill	examples/examples/set/ex-2.c	/^int match_skill(const void *skill1, c
 match_str	examples/examples/graph/ex-1.c	/^static int match_str(const void *str1, const void *str2) {$/;"	f	file:
 match_task	examples/examples/graph/ex-3.c	/^static int match_task(const void *task1, const void *task2) {$/;"	f	file:
 match_tsp	examples/examples/graphalg/ex-1.c	/^static int match_tsp(const void *tsp1, const void *tsp2) {$/;"	f	file:
+max	algorithm/file/commonapi.c	/^int max(int x, int y) {$/;"	f
 max	algorithm/src/commonapi.c	/^int max(int x, int y) {$/;"	f
+max_arr	algorithm/file/commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
 max_arr	algorithm/src/commonapi.c	/^int max_arr(const int arr[], const int len) {$/;"	f
 merge	examples/source/mgsort.c	/^static int merge(void *data, int esize, int i, int j, int k, int (*compare)$/;"	f	file:
 mgsort	examples/source/mgsort.c	/^int mgsort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	f
+min	algorithm/file/commonapi.c	/^int min(int x, int y) {$/;"	f
 min	algorithm/src/commonapi.c	/^int min(int x, int y) {$/;"	f
 modexp	examples/source/rsa.c	/^static Huge modexp(Huge a, Huge b, Huge n) {$/;"	f	file:
 mom	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
@@ -851,11 +936,17 @@ mst	examples/source/mst.c	/^int mst(Graph *graph, const MstVertex *start, List *
 n	examples/include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPriKey_
 n	examples/include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPubKey_
 name	examples/include/directls.h	/^char               name[MAXNAMLEN + 1];$/;"	m	struct:Directory_
+next	algorithm/file/deque.h	/^    struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	algorithm/file/linkedlist.h	/^    struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	algorithm/file/listqueue.h	/^    struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
 next	examples/include/clist.h	/^struct CListElmt_  *next;$/;"	m	struct:CListElmt_	typeref:struct:CListElmt_::CListElmt_
 next	examples/include/dlist.h	/^struct DListElmt_  *next;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_
 next	examples/include/list.h	/^struct ListElmt_   *next;$/;"	m	struct:ListElmt_	typeref:struct:ListElmt_::ListElmt_
-nextQIndex	algorithm/src/queue.c	/^int nextQIndex(int idx)$/;"	f
+nextList	algorithm/file/linkedlist.c	/^int nextList(List *plist, LData *data) { $/;"	f
+nextNode	algorithm/file/deque.c	/^Node * nextNode(Node* node, int cnt) {$/;"	f
+nextQIndex	algorithm/file/arrayqueue.c	/^int nextQIndex(int idx)$/;"	f
 next_token	examples/include/symbol.h	/^static char *next_token(const char *istream) {$/;"	f
+numOfData	algorithm/file/linkedlist.h	/^    int numOfData;$/;"	m	struct:_linkedlist
 number	examples/include/page.h	/^int                number;$/;"	m	struct:Page_
 ohtbl_destroy	examples/source/ohtbl.c	/^void ohtbl_destroy(OHTbl *htbl) {$/;"	f
 ohtbl_init	examples/source/ohtbl.c	/^int ohtbl_init(OHTbl *htbl, int positions, int (*h1)(const void *key), int$/;"	f
@@ -867,10 +958,12 @@ other	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} 
 parent	examples/include/graphalg.h	/^struct MstVertex_  *parent;$/;"	m	struct:MstVertex_	typeref:struct:MstVertex_::MstVertex_
 parent	examples/include/graphalg.h	/^struct PathVertex_ *parent;$/;"	m	struct:PathVertex_	typeref:struct:PathVertex_::PathVertex_
 partition	examples/source/qksort.c	/^static int partition(void *data, int esize, int i, int k, int (*compare)$/;"	f	file:
-peek	algorithm/src/stack.c	/^SData peek(Stack *ps){$/;"	f
+peek	algorithm/file/liststack.c	/^Data peek(Stack *ps) { $/;"	f
+peek	algorithm/file/stack.c	/^SData peek(Stack *ps){$/;"	f
 permute	examples/source/des.c	/^static void permute(unsigned char *bits, const int *mapping, int n) {$/;"	f	file:
 phi	examples/include/geometry.h	/^                   phi;$/;"	m	struct:SPoint_
-pop	algorithm/src/stack.c	/^SData pop(Stack *ps)$/;"	f
+pop	algorithm/file/liststack.c	/^Data pop(Stack *ps) { $/;"	f
+pop	algorithm/file/stack.c	/^SData pop(Stack *ps)$/;"	f
 positions	examples/include/ohtbl.h	/^int                positions;$/;"	m	struct:OHTbl_
 postorder	examples/source/traverse.c	/^int postorder(const BiTreeNode *node, List *list) {$/;"	f
 pqueue_destroy	examples/include/pqueue.h	/^#define pqueue_destroy /;"	d
@@ -881,7 +974,12 @@ pqueue_peek	examples/include/pqueue.h	/^#define pqueue_peek(/;"	d
 pqueue_size	examples/include/pqueue.h	/^#define pqueue_size /;"	d
 preorder	examples/source/traverse.c	/^int preorder(const BiTreeNode *node, List *list) {$/;"	f
 preorder_tree	examples/examples/bistree/ex-1.c	/^static void preorder_tree(const BiTreeNode *node) {$/;"	f	file:
+prev	algorithm/file/deque.h	/^    struct _node *prev;$/;"	m	struct:_node	typeref:struct:_node::_node
 prev	examples/include/dlist.h	/^struct DListElmt_  *prev;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_
+printAllOfList	algorithm/file/linkedlist.c	/^void printAllOfList(List *plist) {$/;"	f
+printReverseAllOfList	algorithm/file/linkedlist.c	/^void printReverseAllOfList(List *plist) {$/;"	f
+print_arr	algorithm/file/commonapi.c	/^void print_arr(int arr[], int len) $/;"	f
+print_arr	algorithm/src/commonapi.c	/^void print_arr(int arr[], int len) $/;"	f
 print_graph	examples/examples/graph/ex-1.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:
 print_graph	examples/examples/graph/ex-2.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:
 print_graph	examples/examples/graph/ex-3.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:
@@ -908,18 +1006,25 @@ print_table	examples/examples/chtbl/ex-1.c	/^static void print_table(const CHTbl
 print_table	examples/examples/ohtbl/ex-1.c	/^static void print_table(const OHTbl *htbl) {$/;"	f	file:
 priority	examples/include/parcel.h	/^int                priority;$/;"	m	struct:Parcel_
 process_event	examples/source/events.c	/^int process_event(Queue *events, int (*dispatch)(Event *event)) {$/;"	f
-push	algorithm/src/stack.c	/^int push(Stack *ps, SData data)$/;"	f
+push	algorithm/file/liststack.c	/^int push(Stack *ps, Data data) {$/;"	f
+push	algorithm/file/stack.c	/^int push(Stack *ps, SData data)$/;"	f
 put_parcel	examples/source/parcels.c	/^int put_parcel(PQueue *parcels, const Parcel *parcel) {$/;"	f
 qksort	examples/source/qksort.c	/^int qksort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	f
-qpeek	algorithm/src/queue.c	/^QData qpeek(Queue *pq)$/;"	f
-queArr	algorithm/src/queue.h	/^    QData queArr[QUEUE_SIZE];$/;"	m	struct:_queue
-queueInit	algorithm/src/queue.c	/^void queueInit(Queue *pq)$/;"	f
+qpeek	algorithm/file/arrayqueue.c	/^QData qpeek(Queue *pq)$/;"	f
+qpeek	algorithm/file/listqueue.c	/^QData qpeek(Queue *pq) { $/;"	f
+queArr	algorithm/file/arrayqueue.h	/^    QData queArr[QUEUE_SIZE];$/;"	m	struct:_arrayqueue
+queueInit	algorithm/file/arrayqueue.c	/^void queueInit(Queue *pq)$/;"	f
+queueInit	algorithm/file/listqueue.c	/^void queueInit(Queue *pq) { $/;"	f
 queue_dequeue	examples/source/queue.c	/^int queue_dequeue(Queue *queue, void **data) {$/;"	f
 queue_destroy	examples/include/queue.h	/^#define queue_destroy /;"	d
 queue_enqueue	examples/source/queue.c	/^int queue_enqueue(Queue *queue, const void *data) {$/;"	f
 queue_init	examples/include/queue.h	/^#define queue_init /;"	d
 queue_peek	examples/include/queue.h	/^#define queue_peek(/;"	d
 queue_size	examples/include/queue.h	/^#define queue_size /;"	d
+rear	algorithm/file/listqueue.h	/^    Node *rear;$/;"	m	struct:_listqueue
+rearDequeue	algorithm/file/deque.c	/^Data rearDequeue(Deque *pd) {$/;"	f
+rearEnqueue	algorithm/file/deque.c	/^void rearEnqueue(Deque *pd, Data data) {$/;"	f
+rearPeek	algorithm/file/deque.c	/^Data rearPeek(Deque *pd) {$/;"	f
 receive_event	examples/source/events.c	/^int receive_event(Queue *events, const Event *event) {$/;"	f
 recv_comp	examples/source/transfer.c	/^int recv_comp(int s, unsigned char **data, int *size, int flags) {$/;"	f
 reference	examples/include/page.h	/^int                reference;$/;"	m	struct:Page_
@@ -927,7 +1032,9 @@ relax	examples/source/shortest.c	/^static void relax(PathVertex *u, PathVertex *
 replace_page	examples/source/page.c	/^int replace_page(CListElmt **current) {$/;"	f
 rho	examples/include/geometry.h	/^double             rho,$/;"	m	struct:SPoint_
 right	examples/include/bitree.h	/^struct BiTreeNode_ *right;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_
+right_n_rotate	algorithm/file/commonapi.c	/^void right_n_rotate(int arr[], int s, int t, int n) {$/;"	f
 right_n_rotate	algorithm/src/commonapi.c	/^void right_n_rotate(int arr[], int s, int t, int n) {$/;"	f
+right_rotate	algorithm/file/commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	f
 right_rotate	algorithm/src/commonapi.c	/^void right_rotate(int arr[], int s, int t) {$/;"	f
 root	examples/include/bitree.h	/^BiTreeNode         *root;$/;"	m	struct:BiTree_
 root	examples/source/root.c	/^int root(double (*f)(double x), double (*g)(double x), double *x, int *n,$/;"	f
@@ -938,7 +1045,9 @@ rsa_decipher	examples/source/rsa.c	/^void rsa_decipher(Huge ciphertext, Huge *pl
 rsa_encipher	examples/source/rsa.c	/^void rsa_encipher(Huge plaintext, Huge *ciphertext, RsaPubKey pubkey) {$/;"	f
 rxsort	examples/source/rxsort.c	/^int rxsort(int *data, int size, int p, int k) {$/;"	f
 search_int	examples/examples/bitree/ex-1.c	/^static BiTreeNode *search_int(BiTree *tree, int i) {$/;"	f	file:
+selectPosEnqueue	algorithm/file/deque.c	/^int selectPosEnqueue(Deque *pd, Data data, int pos) {$/;"	f
 send_comp	examples/source/transfer.c	/^int send_comp(int s, const unsigned char *data, int size, int flags) {$/;"	f
+sentinel	algorithm/file/dbg.h	/^#define sentinel(/;"	d
 sentinel	algorithm/src/dbg.h	/^#define sentinel(/;"	d
 set	examples/include/cover.h	/^Set                set;$/;"	m	struct:KSet_
 set_destroy	examples/include/set.h	/^#define set_destroy /;"	d
@@ -953,6 +1062,8 @@ set_remove	examples/source/set.c	/^int set_remove(Set *set, void **data) {$/;"	f
 set_size	examples/include/set.h	/^#define set_size(/;"	d
 set_union	examples/source/set.c	/^int set_union(Set *setu, const Set *set1, const Set *set2) {$/;"	f
 shortest	examples/source/shortest.c	/^int shortest(Graph *graph, const PathVertex *start, List *paths, int (*match)$/;"	f
+showNextNode	algorithm/file/linkedlist.c	/^void showNextNode(Node *node){$/;"	f
+showReverseNextNode	algorithm/file/linkedlist.c	/^void showReverseNextNode(Node *node){$/;"	f
 size	examples/include/bitree.h	/^int                size;$/;"	m	struct:BiTree_
 size	examples/include/chtbl.h	/^int                size;$/;"	m	struct:CHTbl_
 size	examples/include/clist.h	/^int                size;$/;"	m	struct:CList_
@@ -962,20 +1073,24 @@ size	examples/include/heap.h	/^int                size;$/;"	m	struct:Heap_
 size	examples/include/list.h	/^int                size;$/;"	m	struct:List_
 size	examples/include/ohtbl.h	/^int                size;$/;"	m	struct:OHTbl_
 spell	examples/source/spell.c	/^int spell(char (*dictionary)[SPELL_SIZE], int size, const char *word) {$/;"	f
-stackArr	algorithm/src/stack.h	/^    SData stackArr[STACK_SIZE];$/;"	m	struct:_stack
-stackInit	algorithm/src/stack.c	/^void stackInit(Stack *ps)$/;"	f
+stackArr	algorithm/file/stack.h	/^    SData stackArr[STACK_SIZE];$/;"	m	struct:_stack
+stackInit	algorithm/file/liststack.c	/^void stackInit(Stack *ps) { $/;"	f
+stackInit	algorithm/file/stack.c	/^void stackInit(Stack *ps)$/;"	f
 stack_destroy	examples/include/stack.h	/^#define stack_destroy /;"	d
 stack_init	examples/include/stack.h	/^#define stack_init /;"	d
 stack_peek	examples/include/stack.h	/^#define stack_peek(/;"	d
 stack_pop	examples/source/stack.c	/^int stack_pop(Stack *stack, void **data) {$/;"	f
 stack_push	examples/source/stack.c	/^int stack_push(Stack *stack, const void *data) {$/;"	f
 stack_size	examples/include/stack.h	/^#define stack_size /;"	d
+swap	algorithm/file/commonapi.c	/^void swap(int *x, int *y) {$/;"	f
 swap	algorithm/src/commonapi.c	/^void swap(int *x, int *y) {$/;"	f
+swap_arr	algorithm/file/commonapi.c	/^void swap_arr(int arr[], int i, int j) {$/;"	f
 swap_arr	algorithm/src/commonapi.c	/^void swap_arr(int arr[], int i, int j) {$/;"	f
 symbol	examples/include/compress.h	/^unsigned char      symbol;$/;"	m	struct:HuffNode_
 table	examples/include/chtbl.h	/^List               *table;$/;"	m	struct:CHTbl_
 table	examples/include/ohtbl.h	/^void               **table;$/;"	m	struct:OHTbl_
-tail	algorithm/src/queue.h	/^    int tail;$/;"	m	struct:_queue
+tail	algorithm/file/arrayqueue.h	/^    int tail;$/;"	m	struct:_arrayqueue
+tail	algorithm/file/deque.h	/^    Node *tail;$/;"	m	struct:_deque
 tail	examples/include/dlist.h	/^DListElmt          *tail;$/;"	m	struct:DList_
 tail	examples/include/list.h	/^ListElmt           *tail;$/;"	m	struct:List_
 tap	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:

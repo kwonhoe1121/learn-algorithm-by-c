@@ -19,6 +19,8 @@ int countBinary1(const char *binary, const int len);
 int factorial(int n);
 long long choose(int n, int r);
 long long cached_choose(int n, int r);
+long long fibonacci(int n);
+long long cached_fibonacci(int n);
 
 #endif
 
