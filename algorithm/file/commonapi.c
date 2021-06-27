@@ -167,6 +167,72 @@ int pay(int money, int bills[], int n)
     return count;
 }
 
+int partition(int n, int m) 
+{
+    int count = 0, i;
 
+    if(n < m) m = n;
+    if(n == 0) return 1;
+
+    for(i=1; i<=m; i+=1) {
+        count += partition(n-i, i);
+    }
+    return count;
+}
+
+int partition_print(int n, int m, int arr[], int arr_len)
+{    
+    int count = 0, i;
+
+    if(n < m) m = n;
+    if(n == 0) {
+        print_arr(arr, arr_len);
+        return 1;
+    }
+
+    for(i=1; i<=m; i+=1) {
+        arr[arr_len] = i;
+        count += partition_print(n-i, i, arr, arr_len+1);
+    }
+    return count;
+}
+
+int cached_partition(int n, int m) 
+{   
+    static int cached[CACHE_LEN][CACHE_LEN];
+    int count = 0, i;
+
+    if(n < m) m = n;
+    if(cached[n][m]) return cached[n][m];
+    if(n == 0) return cached[n][m] = 1;
+
+    for(i=1; i<=m; i+=1) {
+        count += cached_partition(n-i, i);
+    }
+    return cached[n][m] = count;
+}
+
+int partition2(int n)
+{
+    int count = 0, i;
+    for(i=1; i<n; i+=1) {
+        count += partition2(n-i);
+    }
+    debug("partition2(%d)", n);
+    return count + 1;
+}
+
+int partition2_print(int n, int arr[], int arr_len)
+{
+    int count = 0, i;
+    if(n == 1) {
+        print_arr(arr, arr_len);
+    }
+    for(i=1; i<n; i+=1) {
+        arr[arr_len] = i;
+        count += partition2_print(n-i, arr, arr_len+1);
+    }
+    return count + 1;
+}
 
 

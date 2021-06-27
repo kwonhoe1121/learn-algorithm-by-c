@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+ARR_LEN	algorithm/src/main.c	/^#define ARR_LEN /;"	d	file:
 AVL_BALANCED	examples/include/bistree.h	/^#define            AVL_BALANCED /;"	d
 AVL_LFT_HEAVY	examples/include/bistree.h	/^#define            AVL_LFT_HEAVY /;"	d
 AVL_RGT_HEAVY	examples/include/bistree.h	/^#define            AVL_RGT_HEAVY /;"	d
@@ -646,6 +647,7 @@ cached_choose	algorithm/file/commonapi.c	/^long long cached_choose(int n, int r)
 cached_choose	algorithm/src/commonapi.c	/^long long cached_choose(int n, int r)$/;"	f
 cached_fibonacci	algorithm/file/commonapi.c	/^long long cached_fibonacci(int n)$/;"	f
 cached_fibonacci	algorithm/src/commonapi.c	/^long long cached_fibonacci(int n)$/;"	f
+cached_partition	algorithm/src/commonapi.c	/^int cached_partition(int n, int m) $/;"	f
 cat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
 cat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
 cbc_decipher	examples/source/cbc.c	/^void cbc_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f
@@ -972,7 +974,11 @@ ohtbl_size	examples/include/ohtbl.h	/^#define ohtbl_size(/;"	d
 other	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
 parent	examples/include/graphalg.h	/^struct MstVertex_  *parent;$/;"	m	struct:MstVertex_	typeref:struct:MstVertex_::MstVertex_
 parent	examples/include/graphalg.h	/^struct PathVertex_ *parent;$/;"	m	struct:PathVertex_	typeref:struct:PathVertex_::PathVertex_
+partition	algorithm/src/commonapi.c	/^int partition(int n, int m) $/;"	f
 partition	examples/source/qksort.c	/^static int partition(void *data, int esize, int i, int k, int (*compare)$/;"	f	file:
+partition2	algorithm/src/commonapi.c	/^int partition2(int n)$/;"	f
+partition2_print	algorithm/src/commonapi.c	/^int partition2_print(int n, int arr[], int arr_len)$/;"	f
+partition_print	algorithm/src/commonapi.c	/^int partition_print(int n, int m, int arr[], int arr_len)$/;"	f
 pay	algorithm/file/commonapi.c	/^int pay(int money, int bills[], int n)$/;"	f
 pay	algorithm/src/commonapi.c	/^int pay(int money, int bills[], int n)$/;"	f
 peek	algorithm/file/liststack.c	/^Data peek(Stack *ps) { $/;"	f

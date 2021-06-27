@@ -4,7 +4,9 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+ARR_LEN	src/main.c	/^#define ARR_LEN /;"	d	file:
 ArrayQueue	file/arrayqueue.h	/^} ArrayQueue;$/;"	t	typeref:struct:_arrayqueue
+CACHE_LEN	file/commonapi.c	/^#define CACHE_LEN /;"	d	file:
 CACHE_LEN	src/commonapi.c	/^#define CACHE_LEN /;"	d	file:
 CFLAGS	Makefile	/^CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DDEBUG $(OPTFLAGS)$/;"	m
 Data	file/deque.h	/^typedef int Data;$/;"	t
@@ -68,13 +70,19 @@ _stack	file/stack.h	/^typedef struct _stack$/;"	s
 all_is	file/commonapi.c	/^int all_is(int arr[], int len, int num) $/;"	f
 all_is	src/commonapi.c	/^int all_is(int arr[], int len, int num) $/;"	f
 before	file/linkedlist.h	/^    Node *before;$/;"	m	struct:_linkedlist
+cached_choose	file/commonapi.c	/^long long cached_choose(int n, int r)$/;"	f
 cached_choose	src/commonapi.c	/^long long cached_choose(int n, int r)$/;"	f
+cached_fibonacci	file/commonapi.c	/^long long cached_fibonacci(int n)$/;"	f
+cached_fibonacci	src/commonapi.c	/^long long cached_fibonacci(int n)$/;"	f
+cached_partition	file/commonapi.c	/^int cached_partition(int n, int m) $/;"	f
+cached_partition	src/commonapi.c	/^int cached_partition(int n, int m) $/;"	f
 check	file/dbg.h	/^#define check(/;"	d
 check	src/dbg.h	/^#define check(/;"	d
 check_debug	file/dbg.h	/^#define check_debug(/;"	d
 check_debug	src/dbg.h	/^#define check_debug(/;"	d
 check_mem	file/dbg.h	/^#define check_mem(/;"	d
 check_mem	src/dbg.h	/^#define check_mem(/;"	d
+choose	file/commonapi.c	/^long long choose(int n, int r)$/;"	f
 choose	src/commonapi.c	/^long long choose(int n, int r)$/;"	f
 clean_errno	file/dbg.h	/^#define clean_errno(/;"	d
 clean_errno	src/dbg.h	/^#define clean_errno(/;"	d
@@ -99,6 +107,8 @@ enqueue	file/arrayqueue.c	/^int enqueue(Queue *pq, QData data)$/;"	f
 enqueue	file/listqueue.c	/^int enqueue(Queue *pq, QData data) {$/;"	f
 factorial	file/commonapi.c	/^int factorial(int n) $/;"	f
 factorial	src/commonapi.c	/^int factorial(int n) $/;"	f
+fibonacci	file/commonapi.c	/^long long fibonacci(int n)$/;"	f
+fibonacci	src/commonapi.c	/^long long fibonacci(int n)$/;"	f
 firstList	file/linkedlist.c	/^int firstList(List *plist, LData *data) {$/;"	f
 front	file/listqueue.h	/^    Node *front;$/;"	m	struct:_listqueue
 frontDequeue	file/deque.c	/^Data frontDequeue(Deque *pd) {$/;"	f
@@ -127,11 +137,14 @@ log_info	src/dbg.h	/^#define log_info(/;"	d
 log_warn	file/dbg.h	/^#define log_warn(/;"	d
 log_warn	src/dbg.h	/^#define log_warn(/;"	d
 main	src/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/choose_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/commonapi_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/deque_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/factorial_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/fibonacci_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/linkedlist_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/liststack_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/pay_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	test/queue_test.c	/^int main(int argc, char *argv[])$/;"	f
 max	file/commonapi.c	/^int max(int x, int y) {$/;"	f
 max	src/commonapi.c	/^int max(int x, int y) {$/;"	f
@@ -146,6 +159,16 @@ nextList	file/linkedlist.c	/^int nextList(List *plist, LData *data) { $/;"	f
 nextNode	file/deque.c	/^Node * nextNode(Node* node, int cnt) {$/;"	f
 nextQIndex	file/arrayqueue.c	/^int nextQIndex(int idx)$/;"	f
 numOfData	file/linkedlist.h	/^    int numOfData;$/;"	m	struct:_linkedlist
+partition	file/commonapi.c	/^int partition(int n, int m) $/;"	f
+partition	src/commonapi.c	/^int partition(int n, int m) $/;"	f
+partition2	file/commonapi.c	/^int partition2(int n)$/;"	f
+partition2	src/commonapi.c	/^int partition2(int n)$/;"	f
+partition2_print	file/commonapi.c	/^int partition2_print(int n, int arr[], int arr_len)$/;"	f
+partition2_print	src/commonapi.c	/^int partition2_print(int n, int arr[], int arr_len)$/;"	f
+partition_print	file/commonapi.c	/^int partition_print(int n, int m, int arr[], int arr_len)$/;"	f
+partition_print	src/commonapi.c	/^int partition_print(int n, int m, int arr[], int arr_len)$/;"	f
+pay	file/commonapi.c	/^int pay(int money, int bills[], int n)$/;"	f
+pay	src/commonapi.c	/^int pay(int money, int bills[], int n)$/;"	f
 peek	file/liststack.c	/^Data peek(Stack *ps) { $/;"	f
 peek	file/stack.c	/^SData peek(Stack *ps){$/;"	f
 pop	file/liststack.c	/^Data pop(Stack *ps) { $/;"	f

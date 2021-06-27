@@ -22,6 +22,11 @@ long long cached_choose(int n, int r);
 long long fibonacci(int n);
 long long cached_fibonacci(int n);
 int pay(int money, int bills[], int n);
+int partition(int n, int m);
+int partition_print(int n, int m, int arr[], int arr_len);
+int cached_partition(int n, int m);
+int partition2(int n);
+int partition2_print(int n, int arr[], int arr_len);
 
 #endif
 
