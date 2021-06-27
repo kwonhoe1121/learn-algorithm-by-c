@@ -21,6 +21,7 @@ long long choose(int n, int r);
 long long cached_choose(int n, int r);
 long long fibonacci(int n);
 long long cached_fibonacci(int n);
+int pay(int money, int bills[], int n);
 
 #endif
 

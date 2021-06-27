@@ -158,3 +158,15 @@ long long cached_fibonacci(int n)
     return cached_fibo_val[n] = cached_fibonacci(n-1) + cached_fibonacci(n-2);
 }
 
+int pay(int money, int bills[], int n)
+{
+    int count = 0, i, t;
+    if(n == 1) return money % bills[0] == 0 ? 1 : 0;
+    t = money / bills[n - 1];
+    for(i=0; i<=t; i+=1) count += pay(money - bills[n - 1] * i, bills, n-1);
+    return count;
+}
+
+
+
+

@@ -23,6 +23,8 @@ BiTreeNode	examples/include/bitree.h	/^} BiTreeNode;$/;"	t	typeref:struct:BiTree
 BiTreeNode_	examples/include/bitree.h	/^typedef struct BiTreeNode_ {$/;"	s
 BiTree_	examples/include/bitree.h	/^typedef struct BiTree_ {$/;"	s
 BisTree	examples/include/bistree.h	/^typedef BiTree BisTree;$/;"	t
+CACHE_LEN	algorithm/file/commonapi.c	/^#define CACHE_LEN /;"	d	file:
+CACHE_LEN	algorithm/src/commonapi.c	/^#define CACHE_LEN /;"	d	file:
 CBC_H	examples/include/cbc.h	/^#define CBC_H$/;"	d
 CC	examples/examples/bistree/bistree.mak	/^CC     = c89$/;"	m
 CC	examples/examples/bit/bit.mak	/^CC     = c89$/;"	m
@@ -414,6 +416,7 @@ MstTestE	examples/examples/graphalg/ex-1.c	/^static EdgeData MstTestE[MSTECT] = 
 MstTestV	examples/examples/graphalg/ex-1.c	/^static char MstTestV[MSTVCT][STRSIZ] = {$/;"	v	file:
 MstVertex	examples/include/graphalg.h	/^} MstVertex;$/;"	t	typeref:struct:MstVertex_
 MstVertex_	examples/include/graphalg.h	/^typedef struct MstVertex_ {$/;"	s
+N	algorithm/test/factorial_test.c	/^#define N /;"	d	file:
 NUMMETHS_H	examples/include/nummeths.h	/^#define NUMMETHS_H$/;"	d
 Node	algorithm/file/deque.h	/^} Node;$/;"	t	typeref:struct:_node
 Node	algorithm/file/linkedlist.h	/^} Node;$/;"	t	typeref:struct:_node
@@ -639,6 +642,10 @@ black	examples/include/graph.h	/^typedef enum VertexColor_ {white, gray, black} 
 buckets	examples/include/chtbl.h	/^int                buckets;$/;"	m	struct:CHTbl_
 build_table	examples/source/huffman.c	/^static void build_table(BiTreeNode *node, unsigned short code, unsigned char$/;"	f	file:
 build_tree	examples/source/huffman.c	/^static int build_tree(int *freqs, BiTree **tree) {$/;"	f	file:
+cached_choose	algorithm/file/commonapi.c	/^long long cached_choose(int n, int r)$/;"	f
+cached_choose	algorithm/src/commonapi.c	/^long long cached_choose(int n, int r)$/;"	f
+cached_fibonacci	algorithm/file/commonapi.c	/^long long cached_fibonacci(int n)$/;"	f
+cached_fibonacci	algorithm/src/commonapi.c	/^long long cached_fibonacci(int n)$/;"	f
 cat	examples/examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
 cat	examples/examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
 cbc_decipher	examples/source/cbc.c	/^void cbc_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f
@@ -649,6 +656,8 @@ check_debug	algorithm/file/dbg.h	/^#define check_debug(/;"	d
 check_debug	algorithm/src/dbg.h	/^#define check_debug(/;"	d
 check_mem	algorithm/file/dbg.h	/^#define check_mem(/;"	d
 check_mem	algorithm/src/dbg.h	/^#define check_mem(/;"	d
+choose	algorithm/file/commonapi.c	/^long long choose(int n, int r)$/;"	f
+choose	algorithm/src/commonapi.c	/^long long choose(int n, int r)$/;"	f
 chtbl_destroy	examples/source/chtbl.c	/^void chtbl_destroy(CHTbl *htbl) {$/;"	f
 chtbl_init	examples/source/chtbl.c	/^int chtbl_init(CHTbl *htbl, int buckets, int (*h)(const void *key), int$/;"	f
 chtbl_insert	examples/source/chtbl.c	/^int chtbl_insert(CHTbl *htbl, const void *data) {$/;"	f
@@ -763,8 +772,11 @@ f	examples/examples/nummeths/ex-1.c	/^static double f(double x) {$/;"	f	file:
 fact	examples/source/fact.c	/^int fact(int n) {$/;"	f
 factor	examples/include/bistree.h	/^int                factor;$/;"	m	struct:AvlNode_
 factor	examples/source/factor.c	/^void factor(int number, int n, int j) {$/;"	f
+factorial	algorithm/file/commonapi.c	/^int factorial(int n) $/;"	f
 factorial	algorithm/src/commonapi.c	/^int factorial(int n) $/;"	f
 facttail	examples/source/facttail.c	/^int facttail(int n, int a) {$/;"	f
+fibonacci	algorithm/file/commonapi.c	/^long long fibonacci(int n)$/;"	f
+fibonacci	algorithm/src/commonapi.c	/^long long fibonacci(int n)$/;"	f
 firstList	algorithm/file/linkedlist.c	/^int firstList(List *plist, LData *data) {$/;"	f
 free_frame	examples/source/frames.c	/^int free_frame(List *frames, int frame_number) {$/;"	f
 freq	examples/include/compress.h	/^int                freq;$/;"	m	struct:HuffNode_
@@ -864,8 +876,11 @@ lsqe	examples/source/lsqe.c	/^void lsqe(const double *x, const double *y, int n,
 lz77_compress	examples/source/lz77.c	/^int lz77_compress(const unsigned char *original, unsigned char **compressed,$/;"	f
 lz77_uncompress	examples/source/lz77.c	/^int lz77_uncompress(const unsigned char *compressed, unsigned char$/;"	f
 main	algorithm/src/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/choose_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	algorithm/test/commonapi_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	algorithm/test/deque_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/factorial_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	algorithm/test/fibonacci_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	algorithm/test/linkedlist_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	algorithm/test/liststack_test.c	/^int main(int argc, char *argv[])$/;"	f
 main	algorithm/test/queue_test.c	/^int main(int argc, char *argv[])$/;"	f
@@ -958,6 +973,8 @@ other	examples/include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} 
 parent	examples/include/graphalg.h	/^struct MstVertex_  *parent;$/;"	m	struct:MstVertex_	typeref:struct:MstVertex_::MstVertex_
 parent	examples/include/graphalg.h	/^struct PathVertex_ *parent;$/;"	m	struct:PathVertex_	typeref:struct:PathVertex_::PathVertex_
 partition	examples/source/qksort.c	/^static int partition(void *data, int esize, int i, int k, int (*compare)$/;"	f	file:
+pay	algorithm/file/commonapi.c	/^int pay(int money, int bills[], int n)$/;"	f
+pay	algorithm/src/commonapi.c	/^int pay(int money, int bills[], int n)$/;"	f
 peek	algorithm/file/liststack.c	/^Data peek(Stack *ps) { $/;"	f
 peek	algorithm/file/stack.c	/^SData peek(Stack *ps){$/;"	f
 permute	examples/source/des.c	/^static void permute(unsigned char *bits, const int *mapping, int n) {$/;"	f	file:
