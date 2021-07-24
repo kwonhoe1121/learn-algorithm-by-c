@@ -1,5 +1,6 @@
 #include "commonapi.h"
 
+#define BUF_SIZE 200
 #define CACHE_LEN 200
 
 int max(int x, int y) {
@@ -234,5 +235,30 @@ int partition2_print(int n, int arr[], int arr_len)
     }
     return count + 1;
 }
+
+void print_code(int code[], int len)
+{
+    int i;
+
+    for(i = 0; i < len; i++)
+        printf("%d", code[i]);
+    printf("\n");
+}
+
+void print_gray2(int code[], int n, int index, int reverse)
+{
+    if( index == n ) {
+        print_code(code, n);
+        return;
+    }
+
+    code[index] = reverse;
+    print_gray2(code, n, index + 1, 0);
+    code[index] = 1 - reverse;
+    print_gray2(code, n, index + 1, 1);
+}
+
+
+
 
 

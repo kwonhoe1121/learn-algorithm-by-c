@@ -27,6 +27,8 @@ int partition_print(int n, int m, int arr[], int arr_len);
 int cached_partition(int n, int m);
 int partition2(int n);
 int partition2_print(int n, int arr[], int arr_len);
+void print_code(int code[], int len);
+void print_gray2(int code[], int n, int index, int reverse);
 
 #endif
 
